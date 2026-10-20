@@ -58,7 +58,7 @@ if (carousel) {
     const target = Math.max(0, Math.min(slides.length - 1, index));
     viewport.scrollTo({
       left: target * viewport.clientWidth,
-      behavior: !reducedMotion.matches && Math.abs(target - current) === 1 ? 'smooth' : 'instant',
+      behavior: 'instant',
     });
   }
 
