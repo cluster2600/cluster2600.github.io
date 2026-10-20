@@ -51,7 +51,7 @@ nav a { color: var(--muted); text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 210px;
+  grid-template-columns: minmax(0, 1fr) 300px;
   gap: 72px;
   align-items: start;
   padding: 64px 0 54px;
@@ -151,7 +151,7 @@ footer { padding-bottom: 28px; }
 .skip-link:focus { top: 10px; }
 @media (max-width: 850px) {
   body { padding-inline: 25px; }
-  .hero { gap: 35px; grid-template-columns: minmax(0, 1fr) 165px; }
+  .hero { gap: 35px; grid-template-columns: minmax(0, 1fr) 220px; }
   main > section:not(.hero), footer { grid-template-columns: 180px minmax(0, 1fr); gap: 28px; }
   .expertise-grid article { grid-template-columns: 1fr; gap: 6px; }
   .event-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -164,7 +164,7 @@ footer { padding-bottom: 28px; }
   .hero { padding: 34px 0; grid-template-columns: 1fr; gap: 27px; }
   h1 { letter-spacing: -1px; }
   .role { font-size: 20px; }
-  .hero-portrait { width: 130px; }
+  .hero-portrait { width: 180px; }
   main > section:not(.hero), footer { grid-template-columns: 1fr; gap: 22px; padding: 28px 0 32px; }
   .section-intro h2 { max-width: none; font-size: 23px; }
   .section-intro h2 br { display: none; }
