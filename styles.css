@@ -98,7 +98,7 @@ h3 { font-size: 19px; line-height: 1.5; }
 .team-photo img { display: block; width: 100%; height: auto; }
 .picture-carousel { min-width: 0; width: 100%; max-width: 540px; }
 .carousel-viewport { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; border: 1px solid var(--line); }
-.picture-carousel.is-enhanced .carousel-viewport { scrollbar-width: none; }
+.picture-carousel.is-enhanced .carousel-viewport { display: block; overflow: hidden; scroll-snap-type: none; touch-action: pan-y pinch-zoom; }
 .picture-carousel.is-enhanced .carousel-viewport::-webkit-scrollbar { display: none; }
 .carousel-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; }
 .carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: contain; background: var(--paper); }
