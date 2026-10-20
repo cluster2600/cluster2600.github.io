@@ -45,7 +45,7 @@ h1, h2, h3, strong { font-weight: 400; }
   font-size: 13px;
 }
 .header-arms { display: block; flex: none; }
-.header-arms img { display: block; width: 100px; height: auto; }
+.header-arms img { display: block; width: 220px; height: auto; }
 nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
 nav a { color: var(--muted); text-decoration: none; }
 nav a:hover { text-decoration: underline; }
@@ -101,10 +101,12 @@ h3 { font-size: 19px; line-height: 1.5; }
 .picture-carousel.is-enhanced .carousel-viewport { scrollbar-width: none; }
 .picture-carousel.is-enhanced .carousel-viewport::-webkit-scrollbar { display: none; }
 .carousel-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; }
-.carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; }
+.carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: contain; background: var(--paper); }
 .carousel-viewport:focus-visible, .picture-carousel button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .carousel-controls[hidden] { display: none; }
 .carousel-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.carousel-playback { display: flex; align-items: center; gap: 12px; }
+.carousel-playback button { padding-inline: 10px; }
 .picture-carousel button { min-width: 44px; min-height: 44px; border: 1px solid var(--line); background: transparent; color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
 .picture-carousel button:hover:not(:disabled) { border-color: var(--ink); }
 .picture-carousel button:disabled { opacity: .35; cursor: default; }
@@ -150,6 +152,7 @@ footer { padding-bottom: 28px; }
 @media (max-width: 600px) {
   body { padding-inline: 21px; font-size: 18px; }
   .site-header { padding-top: 21px; display: block; }
+  .header-arms img { width: 180px; }
   nav { margin-top: 15px; gap: 8px 17px; font-size: 11px; }
   .hero { padding: 34px 0; grid-template-columns: 1fr; gap: 27px; }
   h1 { letter-spacing: -1px; }
