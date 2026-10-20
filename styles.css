@@ -96,9 +96,23 @@ h3 { font-size: 19px; line-height: 1.5; }
 .team-photo { grid-column: 1 / -1; }
 .team-photo a { display: block; }
 .team-photo img { display: block; width: 100%; height: auto; }
-.career-carousel-media { width: 100%; max-width: 360px; }
-.career-carousel-media video { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; background: #10151b; }
-.career-carousel-media figcaption { margin-top: 12px; font-size: 12px; }
+.picture-carousel { min-width: 0; width: 100%; max-width: 540px; }
+.carousel-viewport { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; border: 1px solid var(--line); }
+.picture-carousel.is-enhanced .carousel-viewport { scrollbar-width: none; }
+.picture-carousel.is-enhanced .carousel-viewport::-webkit-scrollbar { display: none; }
+.carousel-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; }
+.carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; }
+.carousel-viewport:focus-visible, .picture-carousel button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.carousel-controls[hidden] { display: none; }
+.carousel-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.picture-carousel button { min-width: 44px; min-height: 44px; border: 1px solid var(--line); background: transparent; color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.picture-carousel button:hover:not(:disabled) { border-color: var(--ink); }
+.picture-carousel button:disabled { opacity: .35; cursor: default; }
+.carousel-status { color: var(--muted); font-size: 13px; }
+.carousel-pages { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px; padding: 4px 0 6px; }
+.carousel-pages button { flex: 0 0 44px; border-color: transparent; }
+.carousel-pages button[aria-current] { background: var(--ink); color: var(--paper); }
+.carousel-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 12px; font-size: 12px; }
 .credential-group + .credential-group { margin-top: 28px; padding-top: 23px; border-top: 1px dotted var(--line); }
 .credential-group h3 { margin-bottom: 12px; color: var(--accent); font-size: 16px; line-height: 1.6; }
 .credential-group ul { margin: 0; padding-left: 21px; }
