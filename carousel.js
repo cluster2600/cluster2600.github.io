@@ -9,6 +9,7 @@ if (carousel) {
   const toggle = carousel.querySelector('[data-carousel-toggle]');
   const status = carousel.querySelector('[data-carousel-status]');
   const fullSize = carousel.querySelector('[data-carousel-fullsize]');
+  const stories = [...carousel.querySelectorAll('[data-carousel-story]')];
   const pages = carousel.querySelector('[data-carousel-pages]');
   const pageButtons = [...pages.querySelectorAll('[data-carousel-page]')];
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -47,6 +48,9 @@ if (carousel) {
     status.textContent = `${current + 1} / ${slides.length}`;
     fullSize.href = slides[current].querySelector('img').src;
     fullSize.setAttribute('aria-label', `Open page ${current + 1} at full size`);
+    stories.forEach((story) => {
+      story.hidden = story.id !== slides[current].dataset.story;
+    });
     pageButtons.forEach((button, page) => {
       if (page === current) button.setAttribute('aria-current', 'true');
       else button.removeAttribute('aria-current');
@@ -60,6 +64,7 @@ if (carousel) {
       left: target * viewport.clientWidth,
       behavior: 'instant',
     });
+    update(target);
   }
 
   previous.addEventListener('click', () => { pause(); show(current - 1); });
