@@ -101,7 +101,7 @@ h3 { font-size: 19px; line-height: 1.5; }
 .picture-carousel.is-enhanced .carousel-viewport { display: block; overflow: hidden; scroll-snap-type: none; touch-action: pan-y pinch-zoom; }
 .picture-carousel.is-enhanced .carousel-viewport::-webkit-scrollbar { display: none; }
 .carousel-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; }
-.carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: contain; background: var(--paper); }
+.carousel-slide img { display: block; width: 100%; height: auto; }
 .carousel-viewport:focus-visible, .picture-carousel button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .carousel-controls[hidden] { display: none; }
 .carousel-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
