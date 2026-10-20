@@ -10,14 +10,14 @@
     <meta property="og:url" content="https://cluster2600.github.io/" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>Maxime Grenu | AI Infrastructure &amp; Platform Architect</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="preload" href="assets/fonts/SelectricRoman.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="assets/fonts/SelectricMono.otf" as="font" type="font/otf" crossorigin />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#top">Skip to content</a>
     <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Maxime Grenu home">MG</a>
+      <a class="wordmark" href="#top" aria-label="Maxime Grenu home">Maxime Grenu</a>
       <nav aria-label="Primary navigation">
         <a href="#experience">Experience</a>
         <a href="#expertise">Expertise</a>
@@ -30,56 +30,48 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Crissier, Switzerland · Swiss Permit C</p>
-          <h1 id="hero-title">Maxime<br />Grenu</h1>
+          <h1 id="hero-title">Maxime Grenu</h1>
           <p class="role">AI Infrastructure &amp; Platform Architect</p>
-          <p class="hero-statement">I build production-grade AI platforms and critical infrastructure for regulated, high-consequence environments.</p>
+          <p class="hero-statement">I design and run AI platforms. Before that, I led infrastructure teams in banking, scientific computing and telecommunications.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3wQxDcUaUUzErMBJichPfKUkWynLPXvqZ2hOUGtWYa6MzKdeyEK6hS9aEB4W8VjDonaKXZt7EW" target="_blank" rel="noreferrer">Book a meeting</a>
             <a class="button button-secondary" href="https://www.linkedin.com/in/maximegrenus" target="_blank" rel="noreferrer">LinkedIn profile</a>
           </div>
         </div>
         <figure class="hero-portrait">
-          <img src="assets/maxime.jpg" alt="Portrait of Maxime Grenu" />
-          <figcaption>20+ years operating at the intersection of infrastructure, reliability and AI.</figcaption>
+          <img src="assets/maxime.jpg" alt="Portrait of Maxime Grenu" width="600" height="750" fetchpriority="high" />
+          <figcaption>Based in Crissier, Switzerland.</figcaption>
         </figure>
       </section>
 
-      <section class="signals" aria-label="Key professional signals">
-        <div><strong>20+</strong><span>years in infrastructure and platform leadership</span></div>
-        <div><strong>CHF 8M</strong><span>infrastructure budget governed in regulated banking</span></div>
-        <div><strong>50+</strong><span>Tier 3 engineers led across global operations</span></div>
-        <div><strong>12+</strong><span>AI and AI-infrastructure certifications</span></div>
-      </section>
-
       <section class="statement" aria-labelledby="statement-title">
-        <p class="eyebrow">Positioning</p>
-        <h2 id="statement-title">From large-scale critical infrastructure to sovereign AI delivery.</h2>
-        <p>I work where technical design has to survive real operating constraints: scale, regulatory scrutiny, data protection, reliability, cost and adoption. My current focus is building AI factories with the guardrails and observability required for production.</p>
+        <div class="section-intro">
+          <h2 id="statement-title">A little context</h2>
+        </div>
+        <div class="statement-copy">
+          <p>My background is in keeping infrastructure running: large server estates at AT&amp;T, research computing at the Swiss Institute of Bioinformatics, and banking infrastructure at FlowBank.</p>
+          <p>Today, at Licorn / OriginAI, I work on two AI platforms, from the GPU infrastructure and model services to data protection and monitoring.</p>
+        </div>
       </section>
 
       <section id="expertise" class="expertise" aria-labelledby="expertise-title">
         <div class="section-intro">
-          <p class="eyebrow">Expertise</p>
-          <h2 id="expertise-title">Architecture that can be operated.</h2>
+          <h2 id="expertise-title">What I work on</h2>
         </div>
         <div class="expertise-grid">
           <article>
-            <p class="index">01</p>
             <h3>AI Factory &amp; LLMOps</h3>
             <p>Multi-LLM platforms, AWS Bedrock, OpenAI, Anthropic, RAG, agentic workflows, evaluation, guardrails and observability.</p>
           </article>
           <article>
-            <p class="index">02</p>
             <h3>GPU, HPC &amp; Inference</h3>
             <p>NVIDIA DGX and A100, InfiniBand, WEKA, model serving, scientific computing and AI infrastructure operations.</p>
           </article>
           <article>
-            <p class="index">03</p>
             <h3>Regulated Platforms</h3>
             <p>FINMA/EY audit support, nLPD/GDPR-by-design, PII controls, SLA/KPI governance, ITIL and operational risk.</p>
           </article>
           <article>
-            <p class="index">04</p>
             <h3>Enterprise Delivery</h3>
             <p>Terraform/IaC, APIs, microservices, cloud and on-premise operations, vendor governance, incident recovery and change leadership.</p>
           </article>
@@ -88,8 +80,7 @@
 
       <section id="experience" class="experience" aria-labelledby="experience-title">
         <div class="section-intro">
-          <p class="eyebrow">Selected experience</p>
-          <h2 id="experience-title">Work with real scale and accountability.</h2>
+          <h2 id="experience-title">Selected experience</h2>
         </div>
         <div class="timeline">
           <article class="timeline-item">
@@ -129,8 +120,7 @@
 
       <section class="credentials" aria-labelledby="credentials-title">
         <div class="section-intro">
-          <p class="eyebrow">Credentials</p>
-          <h2 id="credentials-title">Current technical foundation.</h2>
+          <h2 id="credentials-title">Certifications<br /> &amp; education</h2>
         </div>
         <div class="credentials-content">
           <p><strong>AI &amp; infrastructure:</strong> NVIDIA Certified Professional: AI Infrastructure; NVIDIA Certified Professional: Agentic AI; NVIDIA AI Enterprise; NVIDIA InfiniBand; NVIDIA Base Command Manager.</p>
@@ -142,9 +132,8 @@
 
       <section id="writing" class="writing" aria-labelledby="writing-title">
         <div class="section-intro">
-          <p class="eyebrow">Writing &amp; Teaching</p>
-          <h2 id="writing-title">Sharing ideas. Teaching AI infrastructure.</h2>
-          <p>Publications on industrial AI and practical courses on AI infrastructure and data center engineering.</p>
+          <h2 id="writing-title">Writing &amp; teaching</h2>
+          <p>Papers on AI and courses on the infrastructure behind it.</p>
         </div>
         <div class="publication-list">
           <a href="https://doi.org/10.2139/ssrn.6861338" target="_blank" rel="noreferrer">
@@ -154,23 +143,27 @@
             <span>2026</span><strong>Humans and AI - On the Future Ahead of Us</strong><em>SSRN</em>
           </a>
           <a href="https://www.udemy.com/user/maxime-grenu/" target="_blank" rel="noreferrer">
-            <span>Courses</span><strong>Explore my courses on Udemy</strong><em>Udemy</em>
+            <span>Courses</span><strong>AI infrastructure courses</strong><em>Udemy</em>
           </a>
         </div>
       </section>
     </main>
 
     <footer id="contact">
-      <p class="eyebrow">Available for senior AI platform, critical infrastructure and enterprise architecture roles and consulting engagements.</p>
+      <div class="section-intro"><h2>Get in touch</h2></div>
+      <div class="contact-content">
+      <p>For architecture roles, consulting or a conversation about AI infrastructure.</p>
       <a class="footer-email" href="mailto:maxime.grenu@gmail.com">maxime.grenu@gmail.com</a>
       <div class="hero-actions footer-booking">
-        <a class="button button-primary" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3wQxDcUaUUzErMBJichPfKUkWynLPXvqZ2hOUGtWYa6MzKdeyEK6hS9aEB4W8VjDonaKXZt7EW" target="_blank" rel="noreferrer">Book a 30-minute meeting</a>
+        <a class="button button-primary" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3wQxDcUaUUzErMBJichPfKUkWynLPXvqZ2hOUGtWYa6MzKdeyEK6hS9aEB4W8VjDonaKXZt7EW" target="_blank" rel="noreferrer">Book a 30-minute call</a>
         <a class="button button-secondary" href="https://en.malt.ch/profile/maximegrenu" target="_blank" rel="noreferrer">Work with me on Malt</a>
+      </div>
       </div>
       <div class="footer-meta">
         <span>French native · English C2 · Japanese conversational</span>
         <span><a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3wQxDcUaUUzErMBJichPfKUkWynLPXvqZ2hOUGtWYa6MzKdeyEK6hS9aEB4W8VjDonaKXZt7EW" target="_blank" rel="noreferrer">Book a meeting</a> · <a href="https://github.com/cluster2600" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/maximegrenus" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10532377" target="_blank" rel="noreferrer">SSRN</a> · <a href="https://www.udemy.com/user/maxime-grenu/" target="_blank" rel="noreferrer">Udemy</a> · <a href="https://en.malt.ch/profile/maximegrenu" target="_blank" rel="noreferrer">Malt</a></span>
       </div>
+      <p class="colophon">Set in <a href="https://github.com/cluster2600/selectric" target="_blank" rel="noreferrer">Selectric</a>, a typeface by Leonard Mabille.</p>
     </footer>
   </body>
 </html>
