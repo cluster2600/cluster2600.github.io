@@ -127,6 +127,7 @@ h3 { font-size: 19px; line-height: 1.5; }
 .event-photo img { display: block; width: 100%; height: auto; }
 .event-photo figcaption { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.6; }
 .credly-intro { font-size: 16px; color: var(--muted); }
+.credential-context { margin-top: 16px; font-size: 16px; line-height: 1.75; }
 .credly-preview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 20px; }
 .credly-badge { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 14px; align-items: start; text-decoration: none; }
 .credly-badge img { display: block; width: 96px; height: 96px; object-fit: contain; }
