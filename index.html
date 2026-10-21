@@ -11,7 +11,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <title>Maxime Grenu | AI Infrastructure &amp; Platform Architect</title>
     <link rel="preload" href="assets/fonts/SelectricMono.otf" as="font" type="font/otf" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=oracle-21" />
+    <link rel="stylesheet" href="styles.css?v=att-21" />
     <script src="carousel.js?v=gallery-20" defer></script>
   </head>
   <body>
@@ -22,6 +22,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#experience">Experience</a>
+        <a href="#att-2013">AT&amp;T, 2013</a>
         <a href="#expertise">Expertise</a>
         <a href="#writing">Writing &amp; Teaching</a>
         <a href="#career-carousel">In pictures</a>
@@ -106,10 +107,37 @@
             <div>
               <h3>Technical Team Leader, Tier 3, EMEA</h3>
               <p class="company">AT&amp;T Global System Hosting · Bratislava</p>
-              <p>Led 50+ engineers across 16 nationalities on a 40,000-server and 100,000-VDI estate. Resolved AT&amp;T's largest IT outage at the time and contributed to a 100,000-blade-server data-center design.</p>
+              <p>Led 50+ engineers across 16 nationalities on a 40,000-server and 100,000-VDI estate. Led escalation and recovery work during a 160 TB SAN outage in 2013 and contributed to a 100,000-blade-server data-center design. <a href="#att-2013">Read the recovery story.</a></p>
             </div>
           </article>
         </div>
+      </section>
+
+      <section id="att-2013" class="field-story" aria-labelledby="att-2013-title">
+        <div class="section-intro">
+          <h2 id="att-2013-title">AT&amp;T, 2013</h2>
+          <p>Team leader &amp; escalation manager</p>
+        </div>
+        <article class="story-copy">
+          <h3>Recovering from a 160 TB SAN failure</h3>
+          <p>On a Sunday in 2013, a 160 TB SAN failed at AT&amp;T. It held VMware virtual disks, database volumes and Unix systems that booted directly from the SAN.</p>
+          <p>The storage used RAID 0 disk groups beneath a RAID 5 layer. The first failed disk was not replaced promptly. When a second disk failed in a different RAID 0 group, the upper RAID 5 layer lost a second member and the SAN became unavailable. Attempts to recover the array and its snapshots failed. We had to restore the systems.</p>
+          <p>I was both team leader and escalation manager. Starting Monday, I was on a continuous incident call from 8 a.m. to 6 p.m., with around 100 participants, including VIP stakeholders, while also working on the technical recovery.</p>
+          <p>In this environment, Avamar covered Windows Server 2008 R2 and newer systems. The bare-metal recovery procedure had never been tested under these conditions. When we tried to restore, I discovered that the Avamar boot ISO was missing the VMware VMXNET3 network driver.</p>
+          <p>I rebuilt the ISO with the missing driver, then trained the recovery teams: about 50 people in Bratislava, 30 in the United States and 100 in India. The other systems relied on tape backups stored across several US states, which added another recovery path to coordinate.</p>
+          <p>The recovery operation ran around the clock, from Sunday until Friday at noon, when we restored the last production server.</p>
+          <h3 id="ntt-restores">What I changed at NTT</h3>
+          <p>Later, when I deployed Avamar solutions at NTT, I documented the recovery procedures, supplied clients with boot ISOs containing the necessary drivers, and validated backup and restore with them. I made the restore test part of the deployment.</p>
+          <p>I also hold a rare specialist certification in Avamar implementation, earned in 2015.</p>
+          <a class="credly-badge story-credential" href="https://www.credly.com/badges/4e4ce76e-41ef-43a4-b3b8-3c1caff87598/public_url" target="_blank" rel="noreferrer">
+            <img src="assets/credly/avamar-implementation-engineer-v7.png" alt="" width="352" height="352" loading="lazy" decoding="async" />
+            <span>
+              <strong>Specialist - Implementation Engineer, Avamar Version 7.0</strong>
+              <span class="badge-meta">Dell Technologies · Issued <time datetime="2015-05-27">27 May 2015</time></span>
+              <span class="badge-meta">Verify on Credly</span>
+            </span>
+          </a>
+        </article>
       </section>
 
       <section id="career-carousel" class="career-carousel" aria-labelledby="career-carousel-title">
@@ -443,6 +471,7 @@
             <div class="credential-group" aria-labelledby="credential-group-2">
               <h3 id="credential-group-2">Operations</h3>
               <ul>
+                <li><a href="https://www.credly.com/badges/4e4ce76e-41ef-43a4-b3b8-3c1caff87598/public_url" target="_blank" rel="noreferrer">Specialist - Implementation Engineer, Avamar Version 7.0</a> · 2015</li>
                 <li>WEKA Xpert</li>
                 <li>Fortinet Certified Associate Cybersecurity <span class="credential-status">Expired October 2026</span></li>
                 <li>ITIL Foundation</li>
@@ -513,7 +542,7 @@
       </div>
       <div class="footer-meta">
         <span>French native · English C2 · Japanese conversational</span>
-        <span><a href="https://calendar.app.google/nq6EdCauBSvmLh3BA" target="_blank" rel="noreferrer">Book a meeting</a> · <a href="https://github.com/cluster2600" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://huggingface.co/cluster2600" target="_blank" rel="noreferrer">Hugging Face</a> · <a href="https://www.linkedin.com/in/maximegrenus" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10532377" target="_blank" rel="noreferrer">SSRN</a> · <a href="https://www.udemy.com/user/maxime-grenu/" target="_blank" rel="noreferrer">Udemy</a> · <a href="https://en.malt.ch/profile/maximegrenu" target="_blank" rel="noreferrer">Malt</a></span>
+        <span><a href="https://calendar.app.google/nq6EdCauBSvmLh3BA" target="_blank" rel="noreferrer">Book a meeting</a> · <a href="https://github.com/cluster2600" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.npmjs.com/~cluster2600" target="_blank" rel="noreferrer">npm</a> · <a href="https://huggingface.co/cluster2600" target="_blank" rel="noreferrer">Hugging Face</a> · <a href="https://www.linkedin.com/in/maximegrenus" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10532377" target="_blank" rel="noreferrer">SSRN</a> · <a href="https://www.udemy.com/user/maxime-grenu/" target="_blank" rel="noreferrer">Udemy</a> · <a href="https://en.malt.ch/profile/maximegrenu" target="_blank" rel="noreferrer">Malt</a></span>
       </div>
       <p class="colophon">Set in <a href="https://github.com/cluster2600/selectric" target="_blank" rel="noreferrer">Selectric Mono</a>, a typeface by Leonard Mabille.</p>
     </footer>

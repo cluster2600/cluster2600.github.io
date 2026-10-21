@@ -92,6 +92,10 @@ h3 { font-size: 19px; line-height: 1.5; }
 .timeline-item h3 { font-size: 21px; }
 .company { color: var(--accent); margin: 3px 0 11px; font-size: 17px; }
 .timeline-item div > p:last-child { color: var(--muted); font-size: 17px; }
+.story-copy { min-width: 0; }
+.story-copy > p { margin-top: 18px; font-size: 17px; line-height: 1.8; }
+.story-copy h3:not(:first-child) { margin-top: 28px; }
+.story-credential { margin-top: 24px; padding-top: 20px; border-top: 1px dotted var(--line); max-width: 540px; }
 .team-photo { grid-column: 1 / -1; }
 .team-photo a { display: block; }
 .team-photo img { display: block; width: 100%; height: auto; }
