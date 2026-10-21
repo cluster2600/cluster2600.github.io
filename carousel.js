@@ -49,6 +49,17 @@ if (carousel) {
     playback();
   }
 
+  function revealThumbnail(index = current) {
+    const selectedButton = pageButtons[index];
+    const left = selectedButton.offsetLeft;
+    const right = left + selectedButton.offsetWidth;
+    if (left < pages.scrollLeft) {
+      pages.scrollTo({ left: Math.max(0, left - 4), behavior: 'auto' });
+    } else if (right > pages.scrollLeft + pages.clientWidth) {
+      pages.scrollTo({ left: right - pages.clientWidth + 4, behavior: 'auto' });
+    }
+  }
+
   function update(index) {
     current = index;
     slides.forEach((slide, page) => { slide.hidden = page !== current; });
@@ -57,14 +68,16 @@ if (carousel) {
     next.disabled = current === slides.length - 1;
     status.textContent = `${current + 1} / ${slides.length}`;
     fullSize.href = slides[current].querySelector('img').src;
-    fullSize.setAttribute('aria-label', `Open page ${current + 1} at full size`);
+    fullSize.setAttribute('aria-label', `Open photo ${current + 1} at full size`);
     stories.forEach((story) => {
       story.hidden = story.id !== slides[current].dataset.story;
     });
     pageButtons.forEach((button, page) => {
+      button.tabIndex = page === current ? 0 : -1;
       if (page === current) button.setAttribute('aria-current', 'true');
       else button.removeAttribute('aria-current');
     });
+    revealThumbnail();
     slides[(current + 1) % slides.length].querySelector('img').loading = 'eager';
   }
 
@@ -100,6 +113,24 @@ if (carousel) {
   previous.addEventListener('click', () => { pause(); show(current - 1); });
   next.addEventListener('click', () => { pause(); show(current + 1); });
   pageButtons.forEach((button, index) => button.addEventListener('click', () => { pause(); show(index); }));
+  pages.addEventListener('pointerdown', pause);
+  pages.addEventListener('wheel', pause, { passive: true });
+  pages.addEventListener('keydown', (event) => {
+    const focused = pageButtons.indexOf(event.target.closest('[data-carousel-page]'));
+    if (focused < 0) return;
+    const keys = {
+      ArrowLeft: Math.max(0, focused - 1),
+      ArrowRight: Math.min(slides.length - 1, focused + 1),
+      Home: 0,
+      End: slides.length - 1,
+    };
+    if (!(event.key in keys)) return;
+    event.preventDefault();
+    pause();
+    pageButtons[keys[event.key]].focus({ preventScroll: true });
+    revealThumbnail(keys[event.key]);
+    show(keys[event.key]);
+  });
   toggle.addEventListener('click', () => {
     if (playing) pause();
     else {
@@ -151,6 +182,7 @@ if (carousel) {
     schedule();
   }, { threshold: 0.35 }).observe(viewport);
   document.addEventListener('visibilitychange', schedule);
+  window.addEventListener('resize', () => revealThumbnail());
   reducedMotion.addEventListener('change', (event) => {
     if (event.matches) pause();
   });
