@@ -1,0 +1,13 @@
+{
+  "licorn.svg": "https://licorn.ch/assets/theme/images/logo-licorn.svg",
+  "sib.svg": {
+    "source": "https://www.sib.swiss/themes/custom/sib/logo.svg",
+    "credit": "SIB Swiss Institute of Bioinformatics",
+    "license": "CC BY-NC-ND 4.0",
+    "brand_page": "https://www.sib.swiss/fr/a-propos/qui-sommes-nous"
+  },
+  "att.svg": "https://www.att.com/ (header logo)",
+  "spital-wallis.svg": "https://www.hopitalduvalais.ch/_assets/d7693cd4a7bde7380fa79b2c9d8b5d4d/Assets/sprite.svg#logo-header",
+  "flowbank.jpg": "https://www.fintastico.com/en-sg/services/banking/flowbank/",
+  "../licorn-public.jpg": "https://licorn.ch/assets/uploads/2026/09/og-licorn-2400.jpg"
+}

@@ -12,8 +12,9 @@
     <title>Maxime Grenu | AI Infrastructure &amp; Platform Architect</title>
     <link rel="preload" href="assets/fonts/SelectricMono.otf" as="font" type="font/otf" crossorigin />
     <link rel="stylesheet" href="styles.css?v=software-navigation-22" />
+  <link rel="stylesheet" href="work.css?v=visual-22" />
   </head>
-  <body>
+  <body class="profile-page">
     <a class="skip-link" href="#top">Skip to content</a>
     <header class="site-header">
       <a class="site-name" href="index.html">Maxime Grenu</a>
@@ -47,6 +48,8 @@
           <img src="assets/maxime-grenu.jpeg" alt="Portrait of Maxime Grenu wearing yellow glasses" width="400" height="400" fetchpriority="high" />
         </figure>
       </section>
+
+<aside class="work-brands" aria-label="Explore selected professional experience"><p>Selected experience</p><div><a href="#work-licorn" aria-label="Read about my work at Licorn"><img src="assets/brands/licorn.svg" alt="Licorn" decoding="async" /></a><a href="#work-flowbank" aria-label="Read about my work at FlowBank"><img src="assets/brands/flowbank.jpg" alt="FlowBank" decoding="async" /></a><a href="#work-sib" aria-label="Read about my work at Swiss Institute of Bioinformatics"><img src="assets/brands/sib.svg" alt="Swiss Institute of Bioinformatics" decoding="async" /></a><a href="#work-att" aria-label="Read about my work at AT&amp;T"><img src="assets/brands/att.svg" alt="AT&amp;T" decoding="async" /></a><a href="#work-spital-wallis" aria-label="Read about my work at Spital Wallis"><img src="assets/brands/spital-wallis.svg" alt="Spital Wallis" decoding="async" /></a></div></aside>
 
       <section id="expertise" class="expertise" aria-labelledby="expertise-title">
         <div class="section-intro">
@@ -93,33 +96,42 @@
           <h2 id="experience-title">Selected experience</h2>
         </div>
         <div class="timeline">
-          <article class="timeline-item">
+          <article class="timeline-item" id="work-licorn">
             <p class="date">2025 - <time datetime="2026-07-01">July 2026</time></p>
             <div>
+              <div class="employer-mark"><img src="assets/brands/licorn.svg" alt="Licorn logo" loading="lazy" decoding="async" /></div>
               <h3>Principal AI Architect &amp; Lead Engineer</h3>
               <p class="company">Licorn SA / OriginAI SA · Switzerland</p>
               <p>Architected two production AI platforms: multi-LLM services, FastAPI microservices, NVIDIA DGX, AWS Bedrock, Terraform, PII controls and OpenTelemetry/Langfuse observability.</p>
+              <figure class="work-visual licorn-visual">
+                <a href="https://licorn.ch/" target="_blank" rel="noreferrer"><img src="assets/licorn-public.jpg" alt="Licorn's white and turquoise star emblem on a deep teal background" width="2400" height="1260" loading="lazy" decoding="async" /></a>
+                <figcaption>Public brand visual from <a href="https://licorn.ch/">Licorn</a>.</figcaption>
+              </figure>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" id="work-flowbank">
             <p class="date">2023 - 2024</p>
             <div>
+              <div class="employer-mark"><img src="assets/brands/flowbank.jpg" alt="FlowBank logo" loading="lazy" decoding="async" /></div>
               <h3>Head of DevOps Engineering</h3>
               <p class="company">FlowBank · Geneva</p>
               <p>Led infrastructure and DevOps across five data centers spanning AWS, Azure and on-premise systems. Owned a CHF 8M budget, led a 12-person team and supported recurring FINMA/EY audits.</p>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" id="work-sib">
             <p class="date">2022 - 2023</p>
             <div>
+              <div class="employer-mark"><img src="assets/brands/sib.svg" alt="Swiss Institute of Bioinformatics logo" loading="lazy" decoding="async" /></div>
               <h3>Team Lead, Systems Administration / HPC</h3>
               <p class="company">Swiss Institute of Bioinformatics · Lausanne</p>
+              <p class="brand-credit">Logo: SIB Swiss Institute of Bioinformatics, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>.</p>
               <p>Led the infrastructure team supporting scientific computing with NVIDIA A100, InfiniBand and WEKA, including service governance, security and research stakeholder delivery.</p>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" id="work-att">
             <p class="date">2008 - 2014</p>
             <div>
+              <div class="employer-mark"><img src="assets/brands/att.svg" alt="AT&amp;T logo" loading="lazy" decoding="async" /></div>
               <h3>Technical Team Leader, Tier 3, EMEA</h3>
               <p class="company">AT&amp;T Global System Hosting · Bratislava</p>
               <p>Led 50+ engineers across 16 nationalities on a 40,000-server and 100,000-VDI estate. Led escalation and recovery work during a 160 TB SAN outage in 2013 and contributed to a 100,000-blade-server data-center design. <a href="#att-2013">Read the recovery story.</a></p>
@@ -131,9 +143,10 @@
               </figure>
             </div>
           </article>
-          <article class="timeline-item earlier-assignment">
+          <article class="timeline-item earlier-assignment" id="work-spital-wallis">
             <p class="date">Earlier assignments</p>
             <div>
+              <div class="employer-mark"><img src="assets/brands/spital-wallis.svg" alt="Spital Wallis logo" loading="lazy" decoding="async" /></div>
               <h3>Change &amp; problem management</h3>
               <p class="company">Spital Wallis</p>
               <p>Presenting change and problem management to the hospital team.</p>

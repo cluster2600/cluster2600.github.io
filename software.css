@@ -1,0 +1,48 @@
+/* Portfolio-specific visual composition. */
+.software-page .software-intro { padding: 38px 0 44px !important; }
+.software-page .software-intro > p:not(.eyebrow) { max-width: 790px; font-size: 18px; }
+.software-page .visual-index { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 20px; margin-top: 32px; font-size: 12px; }
+.project-thumb { display: block; min-width: 0; text-decoration: none; color: var(--ink); }
+.thumb-image { display: block; background: #edf1f3; overflow: hidden; aspect-ratio: 1.4; border-bottom: 3px solid var(--accent); }
+.thumb-image img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .2s; }
+.thumb-compilot img { object-fit: contain; padding: 8px; background: #f0ebff; }
+.project-thumb:hover img { transform: scale(1.04); }
+.thumb-number { display: block; margin-top: 12px; color: var(--muted); font-size: 10px; }
+.thumb-title { display: block; margin-top: 4px; overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; font-size: 13px; }
+.software-page main > .software-project { display: block; padding-block: 40px 56px; scroll-margin-top: 20px; }
+.software-project > .section-intro { display: grid; grid-template-columns: 230px 1fr; column-gap: 38px; align-items: baseline; margin-bottom: 24px; }
+.software-project .project-sequence { grid-column: 1 / -1; margin: 0 0 12px; font-size: 11px; letter-spacing: 1px; }
+.software-project .section-intro h2 { max-width: none; font-size: clamp(26px,3vw,36px); }
+.software-project .section-intro > p:last-child { margin: 0; }
+.software-project .software-figure { margin-top: 0; }
+.software-project .software-figure > a { display: block; }
+.software-project .software-figure img { width: 100%; height: auto; }
+.project-albator .software-figure > a { max-height: 620px; overflow: hidden; background: #eef0f1; }
+.project-albator .software-figure img { object-fit: contain; }
+.project-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 36px; margin-top: 26px; }
+.project-copy > p { margin: 0; font-size: 17px; }
+.project-copy .software-status { font-size: 12px; }
+.project-copy .project-links { align-content: start; font-size: 15px; }
+.elvis-visual { display: grid; grid-template-columns: 1fr 1fr; background: #182321; color: #fbefe0; }
+.elvis-explainer { padding: 32px; display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
+.elvis-explainer h3 { font-size: clamp(28px,4vw,48px); line-height: 1.2; }
+.elvis-explainer ol { padding-left: 22px; margin: 0; font-size: 14px; line-height: 2; }
+.visual-label { font-size: 11px; letter-spacing: 1px; }
+.elvis-visual figcaption { grid-column: 1/-1; margin: 0; padding: 12px 18px; color: #ece2d7; font-size: 11px; }
+.geometry-motion { margin-top: 24px !important; }
+.geometry-motion img { max-height: 560px; object-fit: contain; background: #f5f8fa; }
+@media(max-width: 850px) { .software-page .visual-index { gap: 12px; } .thumb-title { font-size: 11px; } .elvis-explainer { padding: 22px; } }
+@media(max-width: 600px) {
+ .software-page .visual-index { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 16px; }
+ .software-page .visual-index a:last-child { grid-column: 1/-1; max-width: 70%; }
+ .thumb-title { font-size: 14px; }
+ .software-project > .section-intro { display: block; }
+ .software-project .section-intro > p:last-child { margin-top: 8px; }
+ .project-copy { grid-template-columns: 1fr; gap: 16px; }
+ .elvis-visual { grid-template-columns: 1fr; }
+ .elvis-visual > a { max-height: 380px; overflow: hidden; }
+ .elvis-explainer h3 { font-size: 36px; }
+ .elvis-explainer { gap: 24px; padding: 24px; }
+ .software-page main > .software-project { padding-bottom: 36px; }
+}
+@media(prefers-reduced-motion: reduce) { .thumb-image img { transition: none; } }
