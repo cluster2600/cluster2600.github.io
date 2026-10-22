@@ -231,3 +231,8 @@ footer { padding-bottom: 28px; }
   .footer-meta > span { display: block; }
   .colophon { margin-top: 0; }
 }
+
+.contribution-summary > p + p { margin-top: 16px; }
+.contribution-visual { display: block; margin-top: 24px; }
+.contribution-visual img { display: block; width: 100%; height: auto; }
+.contribution-note { margin-top: 16px; color: var(--muted); font-size: 12px; }

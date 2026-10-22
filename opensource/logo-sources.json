@@ -1,0 +1,190 @@
+{
+  "ArroyoSystems/arroyo": {
+    "file": "logos/ArroyoSystems--arroyo.png",
+    "source": "https://avatars.githubusercontent.com/u/115844955?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "NVIDIA/Megatron-LM": {
+    "file": "logos/NVIDIA--Megatron-LM.png",
+    "source": "https://avatars.githubusercontent.com/u/1728152?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "NVIDIA/NeMo-Agent-Toolkit": {
+    "file": "logos/NVIDIA--NeMo-Agent-Toolkit.png",
+    "source": "https://avatars.githubusercontent.com/u/1728152?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "NVIDIA/NemoClaw": {
+    "file": "logos/NVIDIA--NemoClaw.png",
+    "source": "https://avatars.githubusercontent.com/u/1728152?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "NVIDIA/OpenShell": {
+    "file": "logos/NVIDIA--OpenShell.svg",
+    "source": "https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/brand/assets/openshell-lockup-horizontal.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "NVIDIA/cuda-python": {
+    "file": "logos/NVIDIA--cuda-python.png",
+    "source": "https://avatars.githubusercontent.com/u/1728152?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "NVIDIA/kvpress": {
+    "file": "logos/NVIDIA--kvpress.png",
+    "source": "https://avatars.githubusercontent.com/u/1728152?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "VictoriaMetrics/VictoriaMetrics": {
+    "file": "logos/VictoriaMetrics--VictoriaMetrics.jpg",
+    "source": "https://avatars.githubusercontent.com/u/43720803?v=4",
+    "kind": "Organization mark",
+    "mime": "image/jpeg"
+  },
+  "abhinavsharma-me/ai-building-from-scratch": {
+    "kind": "Project name; no separate mark located",
+    "source": "https://github.com/abhinavsharma-me/ai-building-from-scratch"
+  },
+  "alibaba/zvec": {
+    "file": "logos/alibaba--zvec.svg",
+    "source": "https://zvec.oss-cn-hongkong.aliyuncs.com/logo/github_logo_1.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "apache/airflow": {
+    "file": "logos/apache--airflow.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/apacheairflow.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "apple/containerization": {
+    "file": "logos/apple--containerization.png",
+    "source": "https://raw.githubusercontent.com/apple/containerization/main/assets/Containerization-Logo.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "aquasecurity/trivy": {
+    "file": "logos/aquasecurity--trivy.png",
+    "source": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "cockroachdb/cockroach": {
+    "file": "logos/cockroachdb--cockroach.png",
+    "source": "https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "dask/dask": {
+    "file": "logos/dask--dask.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/dask.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "ddddddO/packemon": {
+    "kind": "Project name; no separate mark located",
+    "source": "https://github.com/ddddddO/packemon"
+  },
+  "falcosecurity/falco": {
+    "file": "logos/falcosecurity--falco.png",
+    "source": "https://avatars.githubusercontent.com/u/42391047?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "ggml-org/whisper.cpp": {
+    "file": "logos/ggml-org--whisper.cpp.jpg",
+    "source": "https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg",
+    "kind": "Project mark",
+    "mime": "image/jpeg"
+  },
+  "huggingface/transformers": {
+    "file": "logos/huggingface--transformers.svg",
+    "source": "https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-light.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "jaegertracing/jaeger": {
+    "file": "logos/jaegertracing--jaeger.svg",
+    "source": "https://www.jaegertracing.io/img/jaeger-vector.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "langchain-ai/langchain": {
+    "file": "logos/langchain-ai--langchain.svg",
+    "source": "https://raw.githubusercontent.com/langchain-ai/langchain/master/.github/images/logo-dark.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "malwaredojo/loki": {
+    "file": "logos/malwaredojo--loki.png",
+    "source": "https://raw.githubusercontent.com/malwaredojo/loki/main/imgs/loki-logo.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "open-telemetry/opentelemetry-python": {
+    "file": "logos/open-telemetry--opentelemetry-python.png",
+    "source": "https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "open-telemetry/opentelemetry-specification": {
+    "file": "logos/open-telemetry--opentelemetry-specification.png",
+    "source": "https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "openclaw/openclaw": {
+    "file": "logos/openclaw--openclaw.png",
+    "source": "https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png",
+    "kind": "Project mark",
+    "mime": "image/png"
+  },
+  "openobserve/openobserve": {
+    "file": "logos/openobserve--openobserve.svg",
+    "source": "https://openobserve.ai/img/logo/o2-logo-readme.svg",
+    "kind": "Project mark",
+    "mime": "image/svg+xml"
+  },
+  "openshift/api": {
+    "file": "logos/openshift--api.png",
+    "source": "https://avatars.githubusercontent.com/u/792337?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "pydantic/pydantic": {
+    "file": "logos/pydantic--pydantic.png",
+    "source": "https://avatars.githubusercontent.com/u/110818415?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "pytest-dev/pytest": {
+    "file": "logos/pytest-dev--pytest.png",
+    "source": "https://avatars.githubusercontent.com/u/8897583?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "spiceai/spiceai": {
+    "file": "logos/spiceai--spiceai.png",
+    "source": "https://avatars.githubusercontent.com/u/73862742?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  },
+  "tokio-rs/tokio": {
+    "file": "logos/tokio-rs--tokio.jpg",
+    "source": "https://avatars.githubusercontent.com/u/20248544?v=4",
+    "kind": "Organization mark",
+    "mime": "image/jpeg"
+  },
+  "vllm-project/vllm": {
+    "file": "logos/vllm-project--vllm.png",
+    "source": "https://avatars.githubusercontent.com/u/136984999?v=4",
+    "kind": "Organization mark",
+    "mime": "image/png"
+  }
+}

@@ -1,0 +1,241 @@
+﻿Type,Repository,Number,Title,Status,Created,Merged,URL
+PR,ddddddO/packemon,296,Fix failing tests and run go test in CI,Open,2026-10-20T13:02:48Z,,https://github.com/ddddddO/packemon/pull/296
+PR,ddddddO/packemon,295,Filter IPv6 frames in TLSv1.2 custom impl for IPv6 on mac/win,Open,2026-10-20T13:01:19Z,,https://github.com/ddddddO/packemon/pull/295
+PR,ddddddO/packemon,294,Skip nil links in tc.Close and return close errors,Open,2026-10-20T13:00:51Z,,https://github.com/ddddddO/packemon/pull/294
+PR,ddddddO/packemon,293,Receive frames up to 65536 bytes on Linux,Open,2026-10-20T12:59:59Z,,https://github.com/ddddddO/packemon/pull/293
+PR,ddddddO/packemon,292,Fix offset of ICMPv6 Router Solicitation options,Open,2026-10-20T12:57:33Z,,https://github.com/ddddddO/packemon/pull/292
+PR,ddddddO/packemon,291,Fix checksum calculation and IPv4 fragment offset encoding,Open,2026-10-20T12:56:52Z,,https://github.com/ddddddO/packemon/pull/291
+PR,ddddddO/packemon,290,Fix panics when showing packet details in Monitor,Open,2026-10-20T12:55:28Z,,https://github.com/ddddddO/packemon/pull/290
+PR,alibaba/zvec,539,feat(tools): opt-in SquaredEuclidean micro-benchmark (tools/core),Closed without merge,2026-06-29T12:25:17Z,,https://github.com/alibaba/zvec/pull/539
+PR,ai-swiss/base,20,Fix/base init test checkout path,Open,2026-06-28T20:00:41Z,,https://github.com/ai-swiss/base/pull/20
+PR,ai-swiss/base,19,Chore/trim speculative config,Open,2026-06-28T19:59:53Z,,https://github.com/ai-swiss/base/pull/19
+PR,ai-swiss/base,18,docs(i18n): traductions allemande et italienne du site + diagrammes mermaid,Open,2026-06-28T18:58:34Z,,https://github.com/ai-swiss/base/pull/18
+PR,ai-swiss/base,17,"feat(base-llm): orchestration multi-modeles (MoA, Triumvirat) et supervision Langfuse",Open,2026-06-28T18:58:32Z,,https://github.com/ai-swiss/base/pull/17
+PR,alibaba/zvec,534,"perf(quantizer): make MatrixRotator::rotate row-contiguous (loop interchange, ~12-15x)",Closed without merge,2026-06-27T13:45:12Z,,https://github.com/alibaba/zvec/pull/534
+PR,yanetniguse/agristreamlit,1,Terrain & water-budget irrigation planning (+ crop-model fix),Open,2026-06-26T06:51:35Z,,https://github.com/yanetniguse/agristreamlit/pull/1
+PR,openclaw/openclaw,59007,fix(net): skip DNS pinning before trusted env proxy dispatch,Merged,2026-04-01T12:47:21Z,2026-04-08T04:41:58Z,https://github.com/openclaw/openclaw/pull/59007
+PR,NVIDIA/NemoClaw,1238,security: block likely secrets from persistent memory writes,Closed without merge,2026-04-01T07:42:47Z,,https://github.com/NVIDIA/NemoClaw/pull/1238
+PR,NVIDIA/OpenShell,621,fix(sandbox): redact sensitive structured log values,Closed without merge,2026-03-26T07:47:53Z,,https://github.com/NVIDIA/OpenShell/pull/621
+PR,NVIDIA/NemoClaw,885,"docs: add known issues, hardware details, and NIM warnings to spark-install guide",Merged,2026-03-25T14:07:26Z,2026-03-26T00:08:49Z,https://github.com/NVIDIA/NemoClaw/pull/885
+PR,NVIDIA/OpenShell,575,fix(router): use max_completion_tokens for OpenAI GPT-5+ validation,Merged,2026-03-24T20:57:17Z,2026-03-25T23:20:30Z,https://github.com/NVIDIA/OpenShell/pull/575
+PR,NVIDIA/OpenShell,574,fix(server): use ALPN-negotiated protocol for TLS connections,Closed without merge,2026-03-24T20:56:47Z,,https://github.com/NVIDIA/OpenShell/pull/574
+PR,NVIDIA/OpenShell,573,fix(sandbox): track PTY state per SSH channel to fix terminal resize,Closed without merge,2026-03-24T20:56:21Z,,https://github.com/NVIDIA/OpenShell/pull/573
+PR,NVIDIA/NemoClaw,811,fix: add fork bomb protection via process limits,Closed without merge,2026-03-24T13:17:56Z,,https://github.com/NVIDIA/NemoClaw/pull/811
+PR,NVIDIA/NemoClaw,810,"fix: remove gcc and netcat from sandbox image (#807, #808)",Closed without merge,2026-03-24T13:17:12Z,,https://github.com/NVIDIA/NemoClaw/pull/810
+PR,NVIDIA/NemoClaw,791,test: systematic DI refactoring and branch coverage expansion to 92%,Closed without merge,2026-03-24T08:19:10Z,,https://github.com/NVIDIA/NemoClaw/pull/791
+PR,NVIDIA/NemoClaw,790,"feat: --json output, per-command --help, model command, scoped help (#753, #757, #759, #754)",Closed without merge,2026-03-24T08:19:06Z,,https://github.com/NVIDIA/NemoClaw/pull/790
+PR,NVIDIA/NemoClaw,789,"fix: inference route retry, model-aware reasoning and maxTokens (#714, #736)",Closed without merge,2026-03-24T08:19:03Z,,https://github.com/NVIDIA/NemoClaw/pull/789
+PR,NVIDIA/NemoClaw,788,"feat: self-update, reconnect, model catalogue, build toolchain, docs fixes (#642, #716, #733, #724, #747)",Closed without merge,2026-03-24T08:19:00Z,,https://github.com/NVIDIA/NemoClaw/pull/788
+PR,NVIDIA/NemoClaw,787,test: add comprehensive Python test suite for blueprint orchestrator,Closed without merge,2026-03-24T08:18:56Z,,https://github.com/NVIDIA/NemoClaw/pull/787
+PR,NVIDIA/NemoClaw,786,"feat: --verbose/--debug flag, configurable OpenClaw version, sandbox permissions (#666, #739, #744, #684, #622)",Closed without merge,2026-03-24T08:17:50Z,,https://github.com/NVIDIA/NemoClaw/pull/786
+PR,NVIDIA/NemoClaw,785,"fix: model sync, Ollama validation, early provider checks (#628, #710, #709)",Closed without merge,2026-03-24T08:17:43Z,,https://github.com/NVIDIA/NemoClaw/pull/785
+PR,NVIDIA/NemoClaw,784,"fix: DNS resolution, installer edge cases, SHA-pinned Actions (#626, #731, #737, #578)",Closed without merge,2026-03-24T08:17:36Z,,https://github.com/NVIDIA/NemoClaw/pull/784
+PR,NVIDIA/NemoClaw,783,"fix: download integrity, configurable ports, credential unification (#583, #684, #616)",Closed without merge,2026-03-24T08:17:29Z,,https://github.com/NVIDIA/NemoClaw/pull/783
+PR,NVIDIA/NemoClaw,782,"fix: add binaries to policy presets + safe config I/O (#676, #692, #606)",Closed without merge,2026-03-24T08:17:22Z,,https://github.com/NVIDIA/NemoClaw/pull/782
+PR,NVIDIA/NemoClaw,781,fix: add local-inference policy preset for Ollama/vLLM host access (#693),Closed without merge,2026-03-24T08:17:16Z,,https://github.com/NVIDIA/NemoClaw/pull/781
+PR,NVIDIA/NemoClaw,780,"fix: redact secrets from CLI output and stop exposing API keys (#579, #664)",Closed without merge,2026-03-24T08:17:09Z,,https://github.com/NVIDIA/NemoClaw/pull/780
+PR,NVIDIA/NemoClaw,779,fix: resolve 3 failing tests in installer and uninstall scripts,Merged,2026-03-24T08:17:01Z,2026-03-25T20:21:28Z,https://github.com/NVIDIA/NemoClaw/pull/779
+PR,NVIDIA/NemoClaw,778,fix: resolve 3 failing tests in installer and uninstall scripts,Closed without merge,2026-03-24T08:14:56Z,,https://github.com/NVIDIA/NemoClaw/pull/778
+PR,NVIDIA/NemoClaw,775,"feat: comprehensive quality, security & test coverage improvements",Closed without merge,2026-03-24T07:42:04Z,,https://github.com/NVIDIA/NemoClaw/pull/775
+PR,NVIDIA/NemoClaw,740,"Dockerfile: bump OpenClaw to 2026.3.22, widen CORS and trusted proxies",Closed without merge,2026-03-23T21:55:01Z,,https://github.com/NVIDIA/NemoClaw/pull/740
+PR,NVIDIA/NemoClaw,310,feat: auto-start OpenClaw gateway and port forwarding in nemoclaw start,Closed without merge,2026-03-18T13:26:19Z,,https://github.com/NVIDIA/NemoClaw/pull/310
+PR,NVIDIA/NemoClaw,304,docs: update spark-install guide with real-world DGX Spark findings,Closed without merge,2026-03-18T11:25:24Z,,https://github.com/NVIDIA/NemoClaw/pull/304
+PR,NVIDIA/NemoClaw,303,security: use StrictHostKeyChecking=accept-new instead of no,Closed without merge,2026-03-18T11:25:05Z,,https://github.com/NVIDIA/NemoClaw/pull/303
+PR,apple/containerization,587,Fix DiffID computation to use uncompressed layer digest,Closed without merge,2026-03-17T09:07:20Z,,https://github.com/apple/containerization/pull/587
+PR,NVIDIA/Megatron-LM,3892,Fix PersistentAsyncCaller.__del__ crash during shutdown,Closed without merge,2026-03-16T21:17:59Z,,https://github.com/NVIDIA/Megatron-LM/pull/3892
+PR,NVIDIA-NeMo/Guardrails,1733,perf: bounded LRU events cache and O(n) config deduplication,Closed without merge,2026-03-15T20:04:03Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1733
+PR,NVIDIA-NeMo/Guardrails,1732,Tier 1 performance optimisations,Closed without merge,2026-03-15T20:03:49Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1732
+PR,NVIDIA-NeMo/Guardrails,1731,Implement P1/P2 performance optimisations,Closed without merge,2026-03-15T20:03:44Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1731
+PR,NVIDIA-NeMo/Guardrails,1727,"feat: Python 3.14 compatibility, performance optimisations, and benchmark suite",Closed without merge,2026-03-13T08:11:45Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1727
+PR,NVIDIA-NeMo/Guardrails,1721,feat: Python 3.14 support — langchain PEP 649 compatibility,Closed without merge,2026-03-12T06:08:24Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1721
+PR,NVIDIA-NeMo/Guardrails,1718,feat: add Python 3.13 support with optional annoy dependency,Closed without merge,2026-03-11T21:34:48Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1718
+PR,NVIDIA/warp,1282,Fix augmented assignment double-evaluation of RHS expressions,Closed without merge,2026-03-10T21:06:50Z,,https://github.com/NVIDIA/warp/pull/1282
+PR,NVIDIA/warp,1281,Fix HashGrid truncation error with negative coordinates,Closed without merge,2026-03-10T20:34:13Z,,https://github.com/NVIDIA/warp/pull/1281
+PR,NVIDIA/nim-deploy,207,Add set -euo pipefail to shell scripts,Closed without merge,2026-03-10T19:52:35Z,,https://github.com/NVIDIA/nim-deploy/pull/207
+PR,NVIDIA/warp,1280,Fix AttributeError in set_module_options when called via runpy,Closed without merge,2026-03-10T19:51:16Z,,https://github.com/NVIDIA/warp/pull/1280
+PR,NVIDIA/GenerativeAIExamples,424,Fix broken API key hyperlink in knowledge_graph_rag README,Closed without merge,2026-03-10T19:50:25Z,,https://github.com/NVIDIA/GenerativeAIExamples/pull/424
+PR,NVIDIA-NeMo/Guardrails,1712,fix: handle empty string values in create_event (#1700),Closed without merge,2026-03-10T19:49:33Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1712
+PR,NVIDIA/kvpress,192,Reset DecodingPress state when exiting context manager,Merged,2026-03-10T19:49:25Z,2026-03-12T14:26:47Z,https://github.com/NVIDIA/kvpress/pull/192
+PR,NVIDIA/DCGM,286,diag: rename 'Device IDs' to 'PCI Device IDs' in dcgmi diag output,Closed without merge,2026-03-10T19:48:58Z,,https://github.com/NVIDIA/DCGM/pull/286
+PR,NVIDIA/Megatron-LM,3782,Fix incorrect HAVE_TE detection when transformer_engine is not installed,Closed without merge,2026-03-10T19:48:53Z,,https://github.com/NVIDIA/Megatron-LM/pull/3782
+PR,NVIDIA/Megatron-LM,3781,Fix PersistentAsyncCaller.__del__ crash during Python shutdown,Merged,2026-03-10T19:48:49Z,2026-03-24T19:58:00Z,https://github.com/NVIDIA/Megatron-LM/pull/3781
+PR,NVIDIA-NeMo/Guardrails,1711,fix: remove trailing space in UtteranceBotActionScriptUpdated validator,Closed without merge,2026-03-10T19:48:17Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1711
+PR,NVIDIA/Megatron-LM,3753,fix: handle list-typed process groups in ProcessGroupCollection.__repr__,Merged,2026-03-09T10:29:51Z,2026-04-13T13:59:19Z,https://github.com/NVIDIA/Megatron-LM/pull/3753
+PR,NVIDIA-NeMo/Guardrails,1702,fix: make RunnableRails.atransform return an async iterator,Closed without merge,2026-03-09T10:29:37Z,,https://github.com/NVIDIA-NeMo/Guardrails/pull/1702
+PR,kai-scheduler/KAI-Scheduler,1164,fix(admission): validate subgroup names are lowercase on PodGroup creation,Closed without merge,2026-03-09T09:40:19Z,,https://github.com/kai-scheduler/KAI-Scheduler/pull/1164
+PR,apple/containerization,575,fix(vminitd): redact environment variable values from debug logs,Closed without merge,2026-03-08T21:57:36Z,,https://github.com/apple/containerization/pull/575
+PR,fastapi/fastapi,15079,🚸 Add missing password format to `OAuth2PasswordRequestFormStrict`,Open,2026-03-08T21:46:39Z,,https://github.com/fastapi/fastapi/pull/15079
+PR,NVIDIA/NeMo-Agent-Toolkit,1770,fix: handle Anthropic-style tool schemas in LangchainProfilerHandler,Merged,2026-03-08T21:36:31Z,2026-03-13T00:25:11Z,https://github.com/NVIDIA/NeMo-Agent-Toolkit/pull/1770
+PR,NVIDIA/warp,1276,Validate default_ptx_arch against NVRTC supported architectures,Closed without merge,2026-03-08T21:21:18Z,,https://github.com/NVIDIA/warp/pull/1276
+PR,triton-inference-server/server,8688,feat: allow override of SageMaker single-model repository path,Closed without merge,2026-03-08T21:09:46Z,,https://github.com/triton-inference-server/server/pull/8688
+PR,kai-scheduler/KAI-Scheduler,1161,fix(admission): remove nvidia as default gpuPodRuntimeClassName,Closed without merge,2026-03-08T20:51:50Z,,https://github.com/kai-scheduler/KAI-Scheduler/pull/1161
+PR,pytorch/pytorch,175861,[CI][CUDA13] Enable FBGEMM for CUDA 13 builds,Closed without merge,2026-02-26T14:58:24Z,,https://github.com/pytorch/pytorch/pull/175861
+PR,alibaba/zvec,176,feat: GPU-accelerated indexing with Collection API integration,Closed without merge,2026-02-25T18:02:13Z,,https://github.com/alibaba/zvec/pull/176
+PR,alibaba/zvec,175,feat: add GPU buffer loader for IndexProvider integration,Closed without merge,2026-02-25T15:48:30Z,,https://github.com/alibaba/zvec/pull/175
+PR,alibaba/zvec,174,feat: add RocksDB vector storage for GPU pipeline,Closed without merge,2026-02-25T15:38:11Z,,https://github.com/alibaba/zvec/pull/174
+PR,alibaba/zvec,173,feat: add C++ product quantization and SVD Procrustes OPQ,Closed without merge,2026-02-25T15:37:34Z,,https://github.com/alibaba/zvec/pull/173
+PR,alibaba/zvec,172,feat: add simdgroup-optimized Metal kernels,Closed without merge,2026-02-25T15:36:50Z,,https://github.com/alibaba/zvec/pull/172
+PR,atelierBek/selectric,3,fix: regenerate OTF fonts for macOS Big Sur compatibility,Closed without merge,2026-02-24T22:22:23Z,,https://github.com/atelierBek/selectric/pull/3
+PR,alibaba/zvec,166,"feat: add GPU backends, quantization, and search optimizations",Closed without merge,2026-02-24T16:41:42Z,,https://github.com/alibaba/zvec/pull/166
+PR,alibaba/zvec,165,feat: add compression module with zstd/gzip/lzma support,Closed without merge,2026-02-24T16:41:40Z,,https://github.com/alibaba/zvec/pull/165
+PR,alibaba/zvec,164,feat: add Python 3.13 and 3.14 support,Merged,2026-02-24T16:41:37Z,2026-02-28T06:37:43Z,https://github.com/alibaba/zvec/pull/164
+PR,alibaba/zvec,157,feat: add Python 3.13 and 3.14 support,Closed without merge,2026-02-22T10:31:38Z,,https://github.com/alibaba/zvec/pull/157
+PR,openshift/api,2721,refactor: use deepcopy-gen style in DeepCopyInto functions,Merged,2026-02-20T22:30:04Z,2026-02-25T10:58:06Z,https://github.com/openshift/api/pull/2721
+PR,openshift/oadp-operator,2099,controllers: use DPAReconciler.Log instead of passing logger to ReconcileFunc,Closed without merge,2026-02-20T22:17:25Z,,https://github.com/openshift/oadp-operator/pull/2099
+PR,gravitational/teleport,63994,fix(tctl): accept human duration strings for autoupdate_config maintenance window,Closed without merge,2026-02-19T20:39:16Z,,https://github.com/gravitational/teleport/pull/63994
+PR,zenml-io/zenml,4508,fix: resolve string annotations from `from __future__ import annotations`,Closed without merge,2026-02-19T18:42:35Z,,https://github.com/zenml-io/zenml/pull/4508
+PR,mlflow/mlflow,20999,Fix: make secrets migration idempotent to recover from partial DDL auto-commit (#19943),Closed without merge,2026-02-19T18:40:39Z,,https://github.com/mlflow/mlflow/pull/20999
+PR,openclaw/openclaw,21148,fix(gateway): add request-aware pairing recovery hints and docs,Closed without merge,2026-02-19T18:23:42Z,,https://github.com/openclaw/openclaw/pull/21148
+PR,hashicorp/terraform,38196,docs: fix broken Markdown link in debugging guide,Closed without merge,2026-02-19T15:12:44Z,,https://github.com/hashicorp/terraform/pull/38196
+PR,etcd-io/etcd,21331,docs: mark Kubernetes etcd image build step as deprecated,Closed without merge,2026-02-19T14:40:05Z,,https://github.com/etcd-io/etcd/pull/21331
+PR,openclaw/openclaw,20991,fix(sandbox): fall back to gateway UID:GID when no user is configured (#20979),Closed without merge,2026-02-19T14:39:22Z,,https://github.com/openclaw/openclaw/pull/20991
+PR,open-policy-agent/opa,8345,docs(policy-reference): align grammar for calls and ref bracket args,Closed without merge,2026-02-19T14:38:56Z,,https://github.com/open-policy-agent/opa/pull/8345
+PR,tokio-rs/tokio,7920,sync: fix mpsc Disconnection docs to clarify recv returns None only when channel is empty,Merged,2026-02-19T14:32:35Z,2026-02-20T08:34:12Z,https://github.com/tokio-rs/tokio/pull/7920
+PR,tokio-rs/tokio,7919,sync: clarify RwLock fairness documentation,Merged,2026-02-19T14:31:03Z,2026-02-19T14:57:42Z,https://github.com/tokio-rs/tokio/pull/7919
+PR,tokio-rs/axum,3666,docs: fix outdated BoxBody comments in route_service example,Closed without merge,2026-02-19T14:29:38Z,,https://github.com/tokio-rs/axum/pull/3666
+PR,temporalio/temporal,9357,docs: fix typo in CONTRIBUTING.md,Closed without merge,2026-02-19T14:22:55Z,,https://github.com/temporalio/temporal/pull/9357
+PR,falcosecurity/falco,3807,docs: fix Contributing.md outdated references,Merged,2026-02-19T14:21:31Z,2026-03-02T17:26:05Z,https://github.com/falcosecurity/falco/pull/3807
+PR,hashicorp/consul,23236,docs: fix client node multi-interface example,Closed without merge,2026-02-19T14:18:18Z,,https://github.com/hashicorp/consul/pull/23236
+PR,cockroachdb/cockroach,163940,changefeedccl: set default webhook_client_timeout to 3s,Merged,2026-02-19T14:16:07Z,2026-03-05T01:43:03Z,https://github.com/cockroachdb/cockroach/pull/163940
+PR,pytest-dev/pytest,14216,doc: fix removed pytest.config reference in historical-notes,Merged,2026-02-19T14:13:58Z,2026-02-24T10:23:12Z,https://github.com/pytest-dev/pytest/pull/14216
+PR,ggml-org/whisper.cpp,3670,readme : fix duplicate word typo in VAD section,Merged,2026-02-19T14:12:13Z,2026-02-19T15:18:42Z,https://github.com/ggml-org/whisper.cpp/pull/3670
+PR,prometheus/prometheus,18117,docs: add range query note to sort_desc and sort_by_label_desc,Closed without merge,2026-02-19T14:11:33Z,,https://github.com/prometheus/prometheus/pull/18117
+PR,ollama/ollama,14324,docs: restore num_gpu as a valid Modelfile parameter,Closed without merge,2026-02-19T14:10:55Z,,https://github.com/ollama/ollama/pull/14324
+PR,apple/containerization,541,ContainerizationOCI: raise Reference name limit to 255 to match OCI spec,Merged,2026-02-19T13:49:35Z,2026-02-20T19:37:42Z,https://github.com/apple/containerization/pull/541
+PR,pytest-dev/pytest,14215,docs: fix grammar in typing docs,Closed without merge,2026-02-19T13:40:23Z,,https://github.com/pytest-dev/pytest/pull/14215
+PR,pydantic/pydantic,12820,Fix typo in performance tips,Merged,2026-02-19T13:39:43Z,2026-02-20T16:34:16Z,https://github.com/pydantic/pydantic/pull/12820
+PR,fastapi/fastapi,14945,docs: update pytest output example in Testing page,Closed without merge,2026-02-19T13:39:20Z,,https://github.com/fastapi/fastapi/pull/14945
+PR,kai-scheduler/KAI-Scheduler,1036,feat(api): enforce lowercase validation on SubGroup name and parent fields,Closed without merge,2026-02-19T13:28:24Z,,https://github.com/kai-scheduler/KAI-Scheduler/pull/1036
+PR,open-telemetry/opentelemetry-specification,4896,docs: use https for CNCF Slack invite link,Merged,2026-02-19T11:43:19Z,2026-02-24T20:57:32Z,https://github.com/open-telemetry/opentelemetry-specification/pull/4896
+PR,pola-rs/polars,26619,docs(py-polars): clarify delta_write_options for compression,Closed without merge,2026-02-19T10:44:10Z,,https://github.com/pola-rs/polars/pull/26619
+PR,aquasecurity/kube-bench,2042,cis-1.6: automate check 1.2.26 for --request-timeout,Closed without merge,2026-02-19T10:41:17Z,,https://github.com/aquasecurity/kube-bench/pull/2042
+PR,dask/dask,12301,Fix misleading TypeError for scalar overflow in dask.array elemwise,Merged,2026-02-19T10:38:07Z,2026-03-04T16:05:27Z,https://github.com/dask/dask/pull/12301
+PR,helm/helm,31845,feat(util): respect SOURCE_DATE_EPOCH for chart archives,Closed without merge,2026-02-19T10:36:33Z,,https://github.com/helm/helm/pull/31845
+PR,apache/airflow,62161,Add French (fr) translation agent skill,Merged,2026-02-19T10:32:24Z,2026-02-27T05:20:27Z,https://github.com/apache/airflow/pull/62161
+PR,PrefectHQ/prefect,20755,feat: add --output json support to task-run ls command,Closed without merge,2026-02-19T10:14:20Z,,https://github.com/PrefectHQ/prefect/pull/20755
+PR,PrefectHQ/prefect,20754,feat: add --output json support to work-pool ls command,Closed without merge,2026-02-19T10:12:49Z,,https://github.com/PrefectHQ/prefect/pull/20754
+PR,dask/dask,12300,docs: document approximate algorithm and Dask-specific params in describe(),Merged,2026-02-19T10:12:11Z,2026-03-11T14:29:00Z,https://github.com/dask/dask/pull/12300
+PR,PrefectHQ/prefect,20753,feat: add --output json support to flow ls command,Closed without merge,2026-02-19T10:11:16Z,,https://github.com/PrefectHQ/prefect/pull/20753
+PR,p-e-w/heretic,183,fix: use repr() for exception messages to always include exception type (#146),Closed without merge,2026-02-19T09:58:52Z,,https://github.com/p-e-w/heretic/pull/183
+PR,grafana/alloy,5592,fix(helm): handle empty rbac.rules and rbac.clusterRules arrays,Closed without merge,2026-02-19T09:57:54Z,,https://github.com/grafana/alloy/pull/5592
+PR,aquasecurity/trivy,10219,docs: fix typos and upgrade insecure HTTP links to HTTPS,Merged,2026-02-19T09:56:58Z,2026-02-26T06:33:34Z,https://github.com/aquasecurity/trivy/pull/10219
+PR,open-telemetry/opentelemetry-python,4923,api: add docstrings to core metrics instrument abstract methods,Merged,2026-02-19T09:56:34Z,2026-03-03T11:17:59Z,https://github.com/open-telemetry/opentelemetry-python/pull/4923
+PR,abhinavsharma-me/ai-building-from-scratch,12,fix: decode 21 google-wrapped links to direct URLs,Merged,2026-02-19T09:55:36Z,2026-02-19T09:55:58Z,https://github.com/abhinavsharma-me/ai-building-from-scratch/pull/12
+PR,argoproj/argo-cd,26520,fix: add X-Frame-Options and CSP headers to Swagger UI to prevent clickjacking,Closed without merge,2026-02-19T09:53:59Z,,https://github.com/argoproj/argo-cd/pull/26520
+PR,aquasecurity/trivy,10218,report/sarif: include invocation startTimeUtc/endTimeUtc,Closed without merge,2026-02-19T09:50:33Z,,https://github.com/aquasecurity/trivy/pull/10218
+PR,open-telemetry/opentelemetry-python,4922,sdk: drop unused Jaeger exporter environment variables,Merged,2026-02-19T09:42:40Z,2026-02-23T08:44:11Z,https://github.com/open-telemetry/opentelemetry-python/pull/4922
+PR,openobserve/openobserve,10575,docs: fix outdated requirements and typos in CONTRIBUTING.md,Merged,2026-02-19T09:42:20Z,2026-02-23T03:31:58Z,https://github.com/openobserve/openobserve/pull/10575
+PR,alibaba/zvec,150,fix(docs): fix typo in README align attr and Python version in CONTRIBUTING,Merged,2026-02-19T09:32:33Z,2026-02-20T02:06:48Z,https://github.com/alibaba/zvec/pull/150
+PR,alibaba/zvec,149,feat(examples): add custom HTTP embedding example for LM Studio / Ollama,Merged,2026-02-19T09:32:20Z,2026-03-03T13:13:54Z,https://github.com/alibaba/zvec/pull/149
+PR,jaegertracing/jaeger,8068,Fix typos and outdated path in Elasticsearch README files,Merged,2026-02-19T08:53:40Z,2026-02-19T13:56:51Z,https://github.com/jaegertracing/jaeger/pull/8068
+PR,spiceai/spiceai,9445,docs: fix typos and syntax errors in style guide and error handling docs,Merged,2026-02-19T08:52:42Z,2026-02-19T15:17:32Z,https://github.com/spiceai/spiceai/pull/9445
+PR,ArroyoSystems/arroyo,1018,docs: fix broken links in README and CONTRIBUTING,Merged,2026-02-19T08:51:20Z,2026-02-19T21:16:10Z,https://github.com/ArroyoSystems/arroyo/pull/1018
+PR,zenml-io/zenml,4503,fix(artifacts): accumulate chunks before writing to ZIP entry,Closed without merge,2026-02-19T08:47:34Z,,https://github.com/zenml-io/zenml/pull/4503
+PR,Chia-Network/chia-blockchain,20534,fix(ssl): add `-> None` return type annotations to ssl helper functions,Closed without merge,2026-02-19T08:29:13Z,,https://github.com/Chia-Network/chia-blockchain/pull/20534
+PR,openobserve/openobserve,10573,fix(search): replace unwrap() panics with safe error handling in VRL apply-over-hits path,Merged,2026-02-19T08:00:48Z,2026-02-25T01:02:24Z,https://github.com/openobserve/openobserve/pull/10573
+PR,traceloop/openllmetry,3696,fix(langchain): preserve non-ASCII characters in JSON serialization,Closed without merge,2026-02-19T07:55:21Z,,https://github.com/traceloop/openllmetry/pull/3696
+PR,vllm-project/vllm,34882,docs: update CPU Docker images to reference Docker Hub instead of AWS ECR,Merged,2026-02-19T07:55:12Z,2026-03-04T18:31:36Z,https://github.com/vllm-project/vllm/pull/34882
+PR,grafana/pyroscope,4848,cmd/pyroscope: expand pyroscope.yaml with annotated configuration examples,Closed without merge,2026-02-19T07:53:18Z,,https://github.com/grafana/pyroscope/pull/4848
+PR,zenml-io/zenml,4502,fix: default CLI list sort order to newest-first for time-sensitive entities,Closed without merge,2026-02-19T07:51:49Z,,https://github.com/zenml-io/zenml/pull/4502
+PR,VictoriaMetrics/VictoriaMetrics,10494,docs/vmctl: fix invalid MetricsQL numeric literal in monitoring example,Merged,2026-02-19T07:50:12Z,2026-02-26T10:34:26Z,https://github.com/VictoriaMetrics/VictoriaMetrics/pull/10494
+PR,Portkey-AI/gateway,1529,fix(ai21): update chat completions to use OpenAI-compatible Jamba API (/v1/chat/completions),Closed without merge,2026-02-19T07:49:20Z,,https://github.com/Portkey-AI/gateway/pull/1529
+PR,Chia-Network/chia-blockchain,20533,Add return type annotations to chia/ssl/create_ssl.py,Closed without merge,2026-02-19T07:47:29Z,,https://github.com/Chia-Network/chia-blockchain/pull/20533
+PR,SigNoz/signoz,10358,fix(external-apis): cursor pointer on table rows + border-color fix in light mode,Closed without merge,2026-02-19T07:47:07Z,,https://github.com/SigNoz/signoz/pull/10358
+PR,NVIDIA/DCGM,281,docs: fix typos and improve accuracy in README.md and contributing guide,Closed without merge,2026-02-18T23:55:50Z,,https://github.com/NVIDIA/DCGM/pull/281
+PR,NVIDIA/go-dcgm,113,docs(dcgm): add comprehensive package-level documentation and improve godoc,Closed without merge,2026-02-18T23:54:07Z,,https://github.com/NVIDIA/go-dcgm/pull/113
+PR,NVIDIA/dcgm-exporter,633,fix(helm): use empty defaults for extraConfigMapVolumes/extraVolumeMounts to fix SELinux-enforcing environments (fixes #613),Closed without merge,2026-02-18T23:52:07Z,,https://github.com/NVIDIA/dcgm-exporter/pull/633
+PR,NVIDIA/dcgm-exporter,632,feat(dashboard): add Hostname template variable and update panel legend labels (fixes #630),Closed without merge,2026-02-18T23:51:43Z,,https://github.com/NVIDIA/dcgm-exporter/pull/632
+PR,n8n-io/n8n,25960,fix(youtube): respect incoming binary mimeType for media uploads,Closed without merge,2026-02-18T20:26:07Z,,https://github.com/n8n-io/n8n/pull/25960
+PR,huggingface/transformers,44131,docs: fix typo 'AuoQuant' → 'AutoQuant' and clarify FINEGRAINED_FP8 library column,Merged,2026-02-18T19:25:52Z,2026-02-18T20:32:16Z,https://github.com/huggingface/transformers/pull/44131
+PR,triton-inference-server/server,8664,docs: fix incomplete TOC hyperlinks in debugging_guide.md,Closed without merge,2026-02-18T19:23:58Z,,https://github.com/triton-inference-server/server/pull/8664
+PR,langchain-ai/langchain,35316,fix(text-splitters): prevent JSFrameworkTextSplitter from mutating self._separators on each split_text() call,Merged,2026-02-18T19:22:34Z,2026-02-18T22:51:43Z,https://github.com/langchain-ai/langchain/pull/35316
+PR,EkinKarabulut/finetuning_llama3.1,1,docs: add .gitignore and enhance README with setup instructions,Closed without merge,2026-02-18T19:19:27Z,,https://github.com/EkinKarabulut/finetuning_llama3.1/pull/1
+PR,malwaredojo/loki,6,fix: update social_media.py to Selenium 4 API and add missing deps,Closed without merge,2026-02-18T19:18:34Z,,https://github.com/malwaredojo/loki/pull/6
+PR,NVIDIA/cuda-python,1650,[no-ci] docs: add uv and pixi installation instructions,Merged,2026-02-18T19:17:49Z,2026-04-08T16:55:18Z,https://github.com/NVIDIA/cuda-python/pull/1650
+PR,tsenart/vegeta,745,fix: replace dead javadox.com link with t-digest GitHub docs,Closed without merge,2026-02-18T19:16:51Z,,https://github.com/tsenart/vegeta/pull/745
+PR,openai/codex,12176,docs(mcp): document how to pass environment variables to MCP servers,Closed without merge,2026-02-18T19:07:01Z,,https://github.com/openai/codex/pull/12176
+PR,apple/containerization,534,fix(dns): validate nameserver addresses are valid IP addresses,Merged,2026-02-18T19:01:08Z,2026-03-25T09:40:08Z,https://github.com/apple/containerization/pull/534
+PR,kai-scheduler/KAI-Scheduler,1034,fix(podgroup): validate subgroup names are lowercase on creation,Closed without merge,2026-02-18T18:58:31Z,,https://github.com/kai-scheduler/KAI-Scheduler/pull/1034
+PR,kai-scheduler/KAI-Scheduler,1033,docs: document Docker prerequisites and WSL credential-helper fix for make test,Closed without merge,2026-02-18T18:01:37Z,,https://github.com/kai-scheduler/KAI-Scheduler/pull/1033
+PR,antirez/voxtral.c,16,docs: add yt-dlp stdin transcription example (re #9),Closed without merge,2026-02-18T17:59:24Z,,https://github.com/antirez/voxtral.c/pull/16
+PR,ddddddO/packemon,220,Clarify numeric base in Monitor view output,Merged,2026-02-18T14:06:17Z,2026-02-20T14:13:16Z,https://github.com/ddddddO/packemon/pull/220
+PR,openclaw/openclaw,10367,CLI/Ops: resilient browser fill + failover hardening + operations templates,Closed without merge,2026-02-06T11:40:04Z,,https://github.com/openclaw/openclaw/pull/10367
+PR,swiss-ai/pretrain-data,2,Document comprehensive README with project overview and usage,Closed without merge,2025-09-03T07:25:40Z,,https://github.com/swiss-ai/pretrain-data/pull/2
+PR,openai/codex,1671,Fix typos and grammar issues in markdown files,Closed without merge,2025-07-24T08:54:28Z,,https://github.com/openai/codex/pull/1671
+PR,apple/containerization,230,Fix typos and grammar in README files,Closed without merge,2025-07-24T07:24:30Z,,https://github.com/apple/containerization/pull/230
+PR,NVIDIA/cuda-python,774,Fix typos and grammar in documentation,Merged,2025-07-23T09:53:47Z,2025-07-25T01:34:49Z,https://github.com/NVIDIA/cuda-python/pull/774
+PR,triton-inference-server/server,8306,docs: Fix typos and grammar issues in markdown files,Closed without merge,2025-07-23T08:58:45Z,,https://github.com/triton-inference-server/server/pull/8306
+PR,huggingface/transformers,39598,Fix typos and grammar issues in documentation and code,Merged,2025-07-23T08:22:25Z,2025-07-23T12:43:12Z,https://github.com/huggingface/transformers/pull/39598
+PR,langchain-ai/langchain,32201,docs: fix typos in documentation,Merged,2025-07-23T07:43:04Z,2025-07-23T14:43:26Z,https://github.com/langchain-ai/langchain/pull/32201
+PR,permissionlesstech/bitchat,100,docs: fix typos and improve grammar,Closed without merge,2025-07-09T13:45:12Z,,https://github.com/permissionlesstech/bitchat/pull/100
+PR,ddddddO/packemon,147,fix: Support both hex and colon-separated MAC address formats in inpu…,Merged,2025-05-28T20:37:44Z,2025-05-29T19:28:53Z,https://github.com/ddddddO/packemon/pull/147
+PR,dimonomid/nerdlog,38,Add Ephemeral SSH Key Support for Enhanced Security,Closed without merge,2025-05-23T14:03:15Z,,https://github.com/dimonomid/nerdlog/pull/38
+PR,dimonomid/nerdlog,37,Improve SSH Config Support with Include and Match Directives,Closed without merge,2025-05-23T14:02:51Z,,https://github.com/dimonomid/nerdlog/pull/37
+PR,dimonomid/nerdlog,36,ephemeral SSH key support,Closed without merge,2025-05-22T07:05:38Z,,https://github.com/dimonomid/nerdlog/pull/36
+PR,malwaredojo/loki,5,bug fixes and improvements,Merged,2025-03-14T18:32:42Z,2025-03-25T05:22:36Z,https://github.com/malwaredojo/loki/pull/5
+PR,malwaredojo/loki,4,Update colours.py,Merged,2025-03-14T16:24:20Z,2025-03-25T05:21:39Z,https://github.com/malwaredojo/loki/pull/4
+Issue,ddddddO/packemon,297,スクラッチ実装と gopacket の差分テストの提案,Open,2026-10-20T13:45:45Z,,https://github.com/ddddddO/packemon/issues/297
+Issue,ddddddO/packemon,289,スクラッチ版 TLS の premaster secret と Finished 検証について（質問）,Open,2026-10-20T07:55:28Z,,https://github.com/ddddddO/packemon/issues/289
+Issue,ddddddO/packemon,288,main でテストが2件失敗している（CI でのテスト実行の提案）,Open,2026-10-20T07:55:25Z,,https://github.com/ddddddO/packemon/issues/288
+Issue,ddddddO/packemon,287,mac/win: IPv6 の TLSv1.2 スクラッチ実装で応答が読み飛ばされる,Open,2026-10-20T07:55:22Z,,https://github.com/ddddddO/packemon/issues/287
+Issue,ddddddO/packemon,286,eBPF のアタッチに失敗すると終了時に panic する,Open,2026-10-20T07:55:18Z,,https://github.com/ddddddO/packemon/issues/286
+Issue,ddddddO/packemon,285,Linux の Monitor で 1500 バイトを超えるフレームが切り詰められる,Open,2026-10-20T07:55:13Z,,https://github.com/ddddddO/packemon/issues/285
+Issue,ddddddO/packemon,284,ICMPv6 Router Solicitation が Monitor に表示されない,Open,2026-10-20T07:55:10Z,,https://github.com/ddddddO/packemon/issues/284
+Issue,ddddddO/packemon,283,チェックサム計算と IPv4 Fragment Offset のエンコードの不具合,Open,2026-10-20T07:55:07Z,,https://github.com/ddddddO/packemon/issues/283
+Issue,ddddddO/packemon,282,Monitor: パケット詳細を表示すると panic して終了する（ICMPv4 エラーメッセージ / DNS）,Open,2026-10-20T07:55:03Z,,https://github.com/ddddddO/packemon/issues/282
+Issue,adamantine-sim/adamantine,503,Input validation always rejects file-based material deposition,Closed,2026-10-16T14:43:15Z,,https://github.com/adamantine-sim/adamantine/issues/503
+Issue,adamantine-sim/adamantine,502,Cooling rate in Microstructure is missing parentheses,Closed,2026-10-16T14:43:11Z,,https://github.com/adamantine-sim/adamantine/issues/502
+Issue,adamantine-sim/adamantine,501,von Mises stress omits sigma_xz and counts sigma_yz twice,Closed,2026-10-16T14:43:08Z,,https://github.com/adamantine-sim/adamantine/issues/501
+Issue,alibaba/zvec,535,Proposal: opt-in benchmarks/ harness for per-query scan throughput (ThreadPool + SIMD dispatch),Open,2026-06-28T08:29:36Z,,https://github.com/alibaba/zvec/issues/535
+Issue,alibaba/zvec,533,[Enhance]: MatrixRotator::rotate() strided column access — loop interchange gives ~12–15× single-thread speedup,Closed,2026-06-27T13:32:00Z,,https://github.com/alibaba/zvec/issues/533
+Issue,NVIDIA/NemoClaw,2291,0.0.35 OpenShell compat: supervisor↔gateway wire change breaks existing NemoClaw sandboxes on cluster upgrade,Closed,2026-04-22T17:49:05Z,,https://github.com/NVIDIA/NemoClaw/issues/2291
+Issue,openclaw/openclaw,59005,[Bug]: trusted env-proxy web_search and web_fetch still fail with EAI_AGAIN in v2026.3.31,Closed,2026-04-01T12:45:11Z,,https://github.com/openclaw/openclaw/issues/59005
+Issue,NVIDIA/NemoClaw,1252,Track removal of downstream OpenClaw trusted env-proxy DNS workaround,Closed,2026-04-01T12:45:11Z,,https://github.com/NVIDIA/NemoClaw/issues/1252
+Issue,NVIDIA/NemoClaw,1234,feat: add daily-to-curated memory distillation,Closed,2026-04-01T07:12:22Z,,https://github.com/NVIDIA/NemoClaw/issues/1234
+Issue,NVIDIA/NemoClaw,1233,security: block secret writes into persistent workspace memory,Closed,2026-04-01T07:12:21Z,,https://github.com/NVIDIA/NemoClaw/issues/1233
+Issue,NVIDIA/NemoClaw,1232,feat: add typed memory index and topic files for workspace memory,Closed,2026-04-01T07:12:20Z,,https://github.com/NVIDIA/NemoClaw/issues/1232
+Issue,NVIDIA/NemoClaw,1231,epic: structured memory and secret-safe persistence,Closed,2026-04-01T07:12:18Z,,https://github.com/NVIDIA/NemoClaw/issues/1231
+Issue,NVIDIA/NemoClaw,877,"Dockerfile: gosu binary hardcoded to amd64, breaks DGX Spark (arm64)",Closed,2026-03-25T08:12:00Z,,https://github.com/NVIDIA/NemoClaw/issues/877
+Issue,NVIDIA/OpenShell,597,sec(deploy): apply Pod Security Standards to sandbox namespace,Closed,2026-03-24T21:14:04Z,,https://github.com/NVIDIA/OpenShell/issues/597
+Issue,NVIDIA/OpenShell,596,sec(server): explicitly pin TLS protocol versions for defence in depth,Closed,2026-03-24T21:13:59Z,,https://github.com/NVIDIA/OpenShell/issues/596
+Issue,NVIDIA/OpenShell,595,sec(sandbox): log push may leak sensitive structured fields to gateway,Closed,2026-03-24T21:13:47Z,,https://github.com/NVIDIA/OpenShell/issues/595
+Issue,NVIDIA/OpenShell,594,sec(server): validate environment key names for control characters in exec requests,Closed,2026-03-24T21:13:40Z,,https://github.com/NVIDIA/OpenShell/issues/594
+Issue,NVIDIA/OpenShell,593,sec(sandbox): upgrade Landlock ABI from V2 to highest available,Closed,2026-03-24T21:13:36Z,,https://github.com/NVIDIA/OpenShell/issues/593
+Issue,NVIDIA/OpenShell,592,sec(sandbox): missing 0.0.0.0 (unspecified address) check in SSRF protection,Closed,2026-03-24T21:13:33Z,,https://github.com/NVIDIA/OpenShell/issues/592
+Issue,NVIDIA/OpenShell,590,sec(install): checksum verification silently skipped when sha256sum unavailable,Closed,2026-03-24T21:13:18Z,,https://github.com/NVIDIA/OpenShell/issues/590
+Issue,NVIDIA/OpenShell,589,sec(ci): add cargo-deny for dependency vulnerability scanning,Closed,2026-03-24T21:13:11Z,,https://github.com/NVIDIA/OpenShell/issues/589
+Issue,NVIDIA/OpenShell,588,sec(cli): shell_escape missing null byte and newline rejection,Closed,2026-03-24T21:12:58Z,,https://github.com/NVIDIA/OpenShell/issues/588
+Issue,NVIDIA/OpenShell,587,sec(bootstrap): PKI certificates never expire (validity 1975–4096),Closed,2026-03-24T21:12:49Z,,https://github.com/NVIDIA/OpenShell/issues/587
+Issue,NVIDIA/OpenShell,586,sec(sandbox): graceful degradation to no network namespace isolation,Closed,2026-03-24T21:12:44Z,,https://github.com/NVIDIA/OpenShell/issues/586
+Issue,NVIDIA/OpenShell,585,sec(sandbox): seccomp bypassed entirely when NetworkMode::Allow,Closed,2026-03-24T21:12:32Z,,https://github.com/NVIDIA/OpenShell/issues/585
+Issue,NVIDIA/OpenShell,584,sec(sandbox): BestEffort Landlock silently degrades to no filesystem sandbox,Closed,2026-03-24T21:12:25Z,,https://github.com/NVIDIA/OpenShell/issues/584
+Issue,NVIDIA/OpenShell,583,sec(router): deprecate plaintext api_key field in route config YAML,Closed,2026-03-24T21:12:17Z,,https://github.com/NVIDIA/OpenShell/issues/583
+Issue,NVIDIA/OpenShell,582,sec(server): credentials exposed over gRPC when --no-auth mode is active,Closed,2026-03-24T21:12:04Z,,https://github.com/NVIDIA/OpenShell/issues/582
+Issue,NVIDIA/OpenShell,581,sec(server): provider credentials stored unencrypted at rest in SQLite,Closed,2026-03-24T21:11:59Z,,https://github.com/NVIDIA/OpenShell/issues/581
+Issue,NVIDIA/OpenShell,580,sec(sandbox): non-constant-time HMAC comparison in SSH handshake,Closed,2026-03-24T21:11:51Z,,https://github.com/NVIDIA/OpenShell/issues/580
+Issue,NVIDIA/OpenShell,579,sec(sandbox): reduce SYS_ADMIN and SYS_PTRACE capabilities on sandbox pods,Closed,2026-03-24T21:11:37Z,,https://github.com/NVIDIA/OpenShell/issues/579
+Issue,NVIDIA/OpenShell,578,"sec(sandbox): seccomp filter allows dangerous syscalls (ptrace, mount, unshare, bpf)",Closed,2026-03-24T21:11:22Z,,https://github.com/NVIDIA/OpenShell/issues/578
+Issue,NVIDIA/OpenShell,577,sec(server): no gRPC auth middleware when allow_unauthenticated is enabled,Closed,2026-03-24T21:11:02Z,,https://github.com/NVIDIA/OpenShell/issues/577
+Issue,NVIDIA/OpenShell,576,sec(server): unauthenticated WebSocket tunnel bypasses mTLS,Closed,2026-03-24T21:10:45Z,,https://github.com/NVIDIA/OpenShell/issues/576
+Issue,NVIDIA/NemoClaw,809,[SECURITY] No process limit (ulimit -u unlimited) — fork bomb unprotected,Closed,2026-03-24T13:07:53Z,,https://github.com/NVIDIA/NemoClaw/issues/809
+Issue,NVIDIA/NemoClaw,808,[SECURITY] netcat (nc) available in sandbox image,Closed,2026-03-24T13:07:51Z,,https://github.com/NVIDIA/NemoClaw/issues/808
+Issue,NVIDIA/NemoClaw,807,[SECURITY] gcc available in sandbox image — unnecessary attack surface,Closed,2026-03-24T13:07:33Z,,https://github.com/NVIDIA/NemoClaw/issues/807
+Issue,NVIDIA/NemoClaw,739,"Dockerfile: pinned OpenClaw version, restrictive allowedOrigins, no way to update in sandbox",Closed,2026-03-23T21:53:31Z,,https://github.com/NVIDIA/NemoClaw/issues/739
+Issue,NVIDIA/NemoClaw,738,setup-spark does not build sandbox image; confusing onboard flow,Closed,2026-03-23T21:53:21Z,,https://github.com/NVIDIA/NemoClaw/issues/738
+Issue,NVIDIA/NemoClaw,737,Installer: placeholder npm package clobbers real NemoClaw installation,Closed,2026-03-23T21:53:15Z,,https://github.com/NVIDIA/NemoClaw/issues/737
+Issue,NVIDIA/NemoClaw,488,Sandbox egress proxy blocks GitHub access for OpenClaw agent despite policy allowing it,Closed,2026-03-20T13:36:28Z,,https://github.com/NVIDIA/NemoClaw/issues/488
+Issue,openclaw/openclaw,49950,"Gateway resets controlUi.allowedOrigins on every config reload, blocking external dashboards",Closed,2026-03-18T17:52:57Z,,https://github.com/openclaw/openclaw/issues/49950
+Issue,builderz-labs/mission-control,449,Cannot connect to OpenClaw gateway inside NemoClaw sandbox — origin mismatch,Closed,2026-03-18T17:49:17Z,,https://github.com/builderz-labs/mission-control/issues/449
+Issue,NVIDIA/NemoClaw,328,Mission Control cannot connect to OpenClaw gateway inside NemoClaw sandbox,Closed,2026-03-18T17:22:44Z,,https://github.com/NVIDIA/NemoClaw/issues/328
+Issue,NVIDIA/NemoClaw,311,OpenClaw gateway inside sandbox requires manual start after every reboot,Closed,2026-03-18T13:28:13Z,,https://github.com/NVIDIA/NemoClaw/issues/311
+Issue,NVIDIA/NemoClaw,307,Sandbox egress proxy blocks direct NVIDIA API access despite network policy allowing it,Closed,2026-03-18T12:35:40Z,,https://github.com/NVIDIA/NemoClaw/issues/307
+Issue,NVIDIA-NeMo/Guardrails,1720,Python 3.14 support: langchain Chain.dict() shadows builtin under PEP 649,Open,2026-03-12T06:04:02Z,,https://github.com/NVIDIA-NeMo/Guardrails/issues/1720
+Issue,alibaba/zvec,180,Proposal: Python GPU-accelerated indexing with Collection API integration,Closed,2026-02-26T08:05:22Z,,https://github.com/alibaba/zvec/issues/180
+Issue,alibaba/zvec,179,Proposal: GPU buffer loader for IndexProvider integration,Closed,2026-02-26T08:05:01Z,,https://github.com/alibaba/zvec/issues/179
+Issue,alibaba/zvec,178,Proposal: C++ header-only Product Quantization and SVD Procrustes OPQ,Closed,2026-02-26T08:04:50Z,,https://github.com/alibaba/zvec/issues/178
+Issue,alibaba/zvec,177,Proposal: simdgroup-optimized Metal compute kernels,Closed,2026-02-26T08:04:35Z,,https://github.com/alibaba/zvec/issues/177
+Issue,openclaw/openclaw,21146,Gateway pairing-required loops need requestId-aware recovery hints,Closed,2026-02-19T18:23:04Z,,https://github.com/openclaw/openclaw/issues/21146
+Issue,apple/containerization,119,[Bug]: doesn't compile with Apple Swift version 6.2-dev,Closed,2025-06-13T13:05:09Z,,https://github.com/apple/containerization/issues/119
+Issue,ddddddO/packemon,146,macOS で `sudo packemon --send` 実行時のエラー,Closed,2025-05-27T14:43:03Z,,https://github.com/ddddddO/packemon/issues/146
+Issue,cline/cline,3120,"400 ""This model's maximum prompt length is 131072 but the request contains 136973 tokens.""",Closed,2025-04-25T14:49:07Z,,https://github.com/cline/cline/issues/3120
+Issue,atelierBek/selectric,2,issue with selectric roman .otf,Open,2020-08-24T19:00:42Z,,https://github.com/atelierBek/selectric/issues/2
