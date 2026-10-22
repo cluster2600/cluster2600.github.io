@@ -87,6 +87,9 @@ h3 { font-size: 19px; line-height: 1.5; }
 .expertise-grid p { color: var(--muted); font-size: 17px; }
 .timeline-item { padding: 23px 0 25px; }
 .project-list { min-width: 0; }
+.project-preview { display: block; margin-top: 20px; border: 1px solid var(--line); }
+.project-preview img { display: block; width: 100%; height: auto; }
+.hobby-projects article + article { margin-top: 32px; padding-top: 32px; }
 .project-list article + article { margin-top: 26px; padding-top: 26px; border-top: 1px dotted var(--line); }
 .project-list h3 { font-size: 21px; overflow-wrap: anywhere; }
 .project-list article > p { margin-top: 12px; color: var(--muted); font-size: 17px; }
