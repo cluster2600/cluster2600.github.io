@@ -236,3 +236,30 @@ footer { padding-bottom: 28px; }
 .contribution-visual { display: block; margin-top: 24px; }
 .contribution-visual img { display: block; width: 100%; height: auto; }
 .contribution-note { margin-top: 16px; color: var(--muted); font-size: 12px; }
+
+/* Make the primary destinations readable and recognisable as links. */
+.site-header { flex-wrap: wrap; gap: 18px 28px; }
+.site-name { color: var(--ink); font-size: 24px; text-decoration: none; }
+.site-header nav { flex: 1 1 600px; gap: 10px 24px; font-size: 16px; }
+.site-header nav a { color: var(--accent); text-decoration: underline; text-underline-offset: 5px; padding-block: 5px; }
+.site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--ink); text-decoration-thickness: 2px; }
+.software-intro { display: block !important; padding: 48px 0 !important; border-top: 0 !important; }
+.software-intro > p { max-width: 850px; margin-top: 20px; }
+.software-intro .eyebrow { margin-top: 0; }
+.software-index { display: flex; flex-wrap: wrap; gap: 12px 26px; margin-top: 26px; }
+.software-story > p + p { margin-top: 16px; }
+.software-figure { margin-top: 26px; }
+.software-figure img { display: block; width: 100%; height: auto; }
+.software-figure figcaption { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.software-flow { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 28px 0; padding-block: 24px; border-block: 1px solid var(--line); font-size: 16px; }
+.software-flow span { flex: 1 1 140px; }
+.software-flow b { font-weight: 400; color: var(--accent); }
+.software-status { margin-top: 16px; color: var(--muted); font-size: 13px; }
+@media (max-width: 600px) {
+ .site-header nav { font-size: 15px; gap: 6px 18px; }
+ .site-header nav a { padding-block: 8px; }
+ .site-name { font-size: 22px; }
+ .software-intro { padding-block: 30px !important; }
+}
+
+.section-intro h2 { overflow-wrap: anywhere; }
