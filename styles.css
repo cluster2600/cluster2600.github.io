@@ -97,7 +97,25 @@ h3 { font-size: 19px; line-height: 1.5; }
 .date { margin-bottom: 9px; }
 .timeline-item h3 { font-size: 21px; }
 .company { color: var(--accent); margin: 3px 0 11px; font-size: 17px; }
-.timeline-item div > p:last-child { color: var(--muted); font-size: 17px; }
+.timeline-item div > p:not(.company) { color: var(--muted); font-size: 17px; }
+.experience-photo { margin-top: 22px; max-width: 600px; }
+.experience-photo a { display: block; }
+.experience-photo img { display: block; width: 100%; height: auto; }
+.experience-photo figcaption { margin-top: 10px; font-size: 12px; line-height: 1.65; color: var(--muted); }
+.presentation-photo { max-width: 220px; }
+.installation-photo { max-width: 240px; }
+.personal-link { grid-column: 1 / -1; font-size: 14px; }
+.personal-page main > .personal-intro { display: block; padding-block: 46px; border-top: 0; }
+.personal-intro h1 { font-size: clamp(32px, 4vw, 44px); }
+.personal-intro > p:not(.eyebrow) { margin-top: 20px; max-width: 700px; font-size: 18px; }
+.personal-intro .button { margin-top: 16px; }
+.archive-grid { columns: 3; column-gap: 24px; min-width: 0; }
+.archive-photo { break-inside: avoid; margin-bottom: 28px; }
+.archive-photo a { display: block; }
+.archive-photo img { display: block; width: 100%; height: auto; }
+.archive-photo figcaption { margin-top: 10px; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.archive-number { color: var(--accent); }
+.personal-footer .colophon { margin-top: 0; }
 .story-copy { min-width: 0; }
 .story-copy > p { margin-top: 18px; font-size: 17px; line-height: 1.8; }
 .story-copy h3:not(:first-child) { margin-top: 28px; }
@@ -181,6 +199,7 @@ footer { padding-bottom: 28px; }
   .expertise-grid article { grid-template-columns: 1fr; gap: 6px; }
   .event-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .credly-preview { grid-template-columns: 1fr; }
+  .archive-grid { columns: 2; }
 }
 @media (max-width: 600px) {
   body { padding-inline: 21px; font-size: 18px; }
@@ -197,6 +216,8 @@ footer { padding-bottom: 28px; }
   .credential-group li, .credential-group p { font-size: 17px; }
   .section-intro > p { margin-top: 8px; }
   .event-gallery { grid-template-columns: 1fr; gap: 28px; }
+  .archive-grid { columns: 1; }
+  .archive-photo { max-width: 420px; margin-inline: auto; }
   .publication-list a { grid-template-columns: 53px minmax(0, 1fr); gap: 12px; }
   .publication-list em { grid-column: 2; }
   .footer-meta { display: block; line-height: 2; }
