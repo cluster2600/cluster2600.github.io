@@ -15,3 +15,31 @@
 @media(max-width:600px) { .work-brands { padding-bottom: 28px; } .work-brands > div { justify-content: flex-start; gap: 25px; } .work-brands img { max-width: 135px; max-height: 42px; } }
 
 .brand-credit { font-size: 10px; color: var(--muted); margin-bottom: 12px; }
+
+.licorn-case-study { margin-top: 26px; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 24px; align-items: start; }
+.licorn-case-study .work-visual { margin-top: 0; }
+.licorn-product video { display: block; width: 100%; height: auto; background: #004c54; }
+.licorn-engineering { padding: 20px; background: #eef6f5; border-top: 3px solid #007d80; }
+.case-eyebrow { font-size: 10px; color: #32646a; margin-bottom: 12px; }
+.licorn-engineering h4 { margin: 0 0 20px; font-size: 20px; font-weight: 400; line-height: 1.4; }
+.engineering-layer { display: grid; grid-template-columns: 26px 1fr; gap: 10px; padding-block: 14px; border-top: 1px solid #b8d4d2; }
+.engineering-layer > span { font-size: 11px; color: #32646a; padding-top: 3px; }
+.engineering-layer h5 { margin: 0 0 5px; font-size: 14px; font-weight: 400; }
+.engineering-layer p { font-size: 12px; line-height: 1.6; color: var(--muted); }
+.paper-entry { padding-bottom: 28px; }
+.paper-entry + .paper-entry { border-top: 1px solid var(--line); padding-top: 28px; }
+.paper-abstract { margin: 20px 0 0 68px; }
+.paper-abstract h3 { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+.paper-abstract > p { font-size: 16px; line-height: 1.75; }
+.paper-abstract > p + p { margin-top: 16px; }
+.paper-abstract > .abstract-source { font-size: 12px; margin-top: 16px; }
+.publication-list .abstract-source a { display: inline; padding: 0; border: 0; }
+@media(max-width:850px) { .licorn-case-study { grid-template-columns: 1fr; } .licorn-product { max-width: 460px; } }
+@media(max-width:600px) { .paper-abstract { margin-left: 0; } .licorn-engineering { padding: 18px; } }
+
+.timeline-item .licorn-engineering .engineering-layer p { font-size: 12px; line-height: 1.6; }
+.timeline-item .licorn-engineering > .case-eyebrow { font-size: 10px; }
+
+.product-demo { margin-top: 12px; font-size: 12px; }
+.product-demo summary { cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+.product-demo video { margin-top: 12px; }

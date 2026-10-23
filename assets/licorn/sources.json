@@ -1,0 +1,11 @@
+{
+  "candidate-demo.mp4": {
+    "source": "https://licorn.ch/assets/uploads/2025/08/02_consultez_les_fiches_detaillees_candidat_1280_483_fr_798.mp4",
+    "description": "Public Licorn candidate demo, published in 2025"
+  },
+  "candidate-demo.webp": {
+    "source": "candidate-demo.mp4",
+    "frame_seconds": 4
+  },
+  "engineering_scope": "Editorial summary of the existing Licorn / OriginAI experience description; not an internal architecture diagram."
+}
