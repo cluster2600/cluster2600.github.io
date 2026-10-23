@@ -46,3 +46,16 @@
 
 .ehl-campus-photo { margin: 24px 0; }
 .ehl-campus-photo img { width: 100%; height: auto; }
+
+.profile-page main > .work-learn { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 0 0 42px; padding: 26px 0; border-block: 1px solid var(--line); }
+.work-learn .eyebrow { margin-bottom: 9px; }
+.work-learn h2 { font-size: 23px; line-height: 1.4; margin-bottom: 12px; }
+.work-learn article > p:last-child { font-size: 16px; line-height: 1.7; }
+.malt-intro h2 a, .malt-cta { color: #a63230; }
+.udemy-intro h2 a { color: #6331a2; }
+.teaching-feature { margin-top: 30px; padding: 24px 0; border-block: 1px solid var(--line); }
+.teaching-feature .eyebrow { margin-bottom: 10px; }
+.teaching-feature h3 { font-size: 23px; line-height: 1.5; }
+.publication-list .teaching-feature a { display: inline; padding: 0; color: #6331a2; }
+.teaching-feature > p:last-child, .malt-explainer { font-size: 16px; margin-top: 12px; }
+@media(max-width:600px) { .profile-page main > .work-learn { grid-template-columns: 1fr; gap: 28px; } .work-learn article + article { padding-top: 26px; border-top: 1px dotted var(--line); } }

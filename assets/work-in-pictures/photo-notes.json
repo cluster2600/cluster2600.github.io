@@ -1,0 +1,72 @@
+[
+  {
+    "source": "page-01.webp",
+    "visual": "page-01.svg",
+    "archive_number": "09",
+    "title": "My workstation at home",
+    "subtitle": "An earlier multi-monitor setup."
+  },
+  {
+    "source": "page-02.webp",
+    "visual": "page-02.svg",
+    "archive_number": "10",
+    "title": "My older computer desks",
+    "subtitle": "Two photographs from the archive."
+  },
+  {
+    "source": "page-03.webp",
+    "visual": "page-03.svg",
+    "archive_number": "11",
+    "title": "IBM Selectric & vintage computing",
+    "subtitle": "Pieces from my own collection."
+  },
+  {
+    "source": "page-04.webp",
+    "visual": "page-04.svg",
+    "archive_number": "12",
+    "title": "Hospital infrastructure",
+    "subtitle": "The server rack, front and back."
+  },
+  {
+    "source": "page-06.webp",
+    "visual": "page-06.svg",
+    "archive_number": "13",
+    "title": "My home office during COVID",
+    "subtitle": "Built around an ultrawide monitor."
+  },
+  {
+    "source": "page-07.webp",
+    "visual": "page-07.svg",
+    "archive_number": "14",
+    "title": "Trading on holiday",
+    "subtitle": "It would not fit in the helicopter. So I drove the kit from Geneva to Saint-Tropez."
+  },
+  {
+    "source": "page-08.webp",
+    "visual": "page-08.svg",
+    "archive_number": "15",
+    "title": "At my IT desk in the hospital",
+    "subtitle": "A photograph from my time at Hôpital du Valais."
+  },
+  {
+    "source": "page-09.webp",
+    "visual": "page-09.svg",
+    "archive_number": "16",
+    "title": "A week immersed in cardiology",
+    "subtitle": "Understanding hospital teams beyond IT."
+  },
+  {
+    "source": "page-10.webp",
+    "visual": "page-10.svg",
+    "archive_number": "17",
+    "title": "Shinjuku, Tokyo",
+    "subtitle": "From my time living in Japan."
+  },
+  {
+    "source": "page-11.webp",
+    "visual": "page-11.svg",
+    "archive_number": "18",
+    "title": "At my desk at ERI",
+    "subtitle": "An evening at the office."
+  }
+]
