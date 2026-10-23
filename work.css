@@ -43,3 +43,6 @@
 .product-demo { margin-top: 12px; font-size: 12px; }
 .product-demo summary { cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
 .product-demo video { margin-top: 12px; }
+
+.ehl-campus-photo { margin: 24px 0; }
+.ehl-campus-photo img { width: 100%; height: auto; }
