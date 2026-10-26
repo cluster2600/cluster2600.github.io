@@ -1,292 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Photographs and personal moments from Maxime Grenu’s archive." />
-    <meta property="og:title" content="Beyond the CV | Maxime Grenu" />
-    <meta property="og:description" content="From the yellow staff badge to travels, portraits and social events." />
-    <meta property="og:image" content="https://cluster2600.github.io/assets/maxime-grenu-portrait-2026.png" />
-    <meta property="og:url" content="https://cluster2600.github.io/personal.html" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <title>Beyond the CV | Maxime Grenu</title>
-    <link rel="preload" href="assets/fonts/SelectricMono.otf" as="font" type="font/otf" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=software-navigation-22" />
-  </head>
-  <body class="personal-page">
-    <a class="skip-link" href="#top">Skip to content</a>
-    <header class="site-header">
-      <a class="header-arms" href="index.html" aria-label="Maxime Grenu home">
-        <img src="assets/grenus-family-arms.png" alt="Grenus family coat of arms" width="1240" height="1269" decoding="async" />
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="index.html">Professional profile</a>
-        <a href="software.html">My software</a>
-        <a href="#hobby-sites">Web projects</a>
-        <a href="#archive">Photo archive</a>
-        <a href="#social-events">Social events</a>
-        <a href="personal.html" aria-current="page">Beyond the CV</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-    </header>
-    <main id="top">
-      <section class="personal-intro" aria-labelledby="personal-title">
-        <p class="eyebrow">The personal notebook</p>
-        <h1 id="personal-title">Beyond the CV</h1>
-        <p>Web projects, old staff badges, desks, travels and evenings out. A few interests and moments from the years behind the professional profile.</p>
-        <a class="button" href="index.html">&larr; Back to my professional profile</a>
-      </section>
-      <section id="hobby-sites" aria-labelledby="hobby-sites-title">
-        <div class="section-intro">
-          <h2 id="hobby-sites-title">Web projects</h2>
-          <p>Web projects I build in my own time.</p>
-        </div>
-        <div class="project-list hobby-projects">
-          <article>
-            <h3><a href="https://kept.vote/" target="_blank" rel="noreferrer">kept.vote</a></h3>
-            <p>A political promise tracker that compares campaign commitments with actions and primary sources, with evidence and progress for each promise.</p>
-            <figure class="project-illustration">
-              <a class="project-preview" href="https://kept.vote/" target="_blank" rel="noreferrer" aria-label="Visit kept.vote">
-                <img src="assets/projects/kept-politicians.png" alt="Editorial illustration of a diverse crowd of European political figures, past and present" width="1536" height="1024" loading="eager" decoding="async" />
-              </a>
-              <figcaption>AI-generated editorial illustration.</figcaption>
-            </figure>
-            <details class="live-preview">
-              <summary>Preview the live tracker</summary>
-              <a class="project-preview" href="https://kept.vote/" target="_blank" rel="noreferrer" aria-label="Explore the live kept.vote tracker">
-                <img src="assets/projects/kept-live.png" alt="The live kept.vote homepage, showing its promise tracker and interactive map of Europe" width="1265" height="712" loading="lazy" decoding="async" />
-              </a>
-            </details>
-          </article>
-          <article>
-            <h3><a href="https://ted-bot-j30-report.pages.dev/" target="_blank" rel="noreferrer">TED — public procurement signals</a></h3>
-            <p>I built a scanner that follows European public contract awards, matches winners to listed small-cap companies and flags contracts that are large relative to their revenue. Telegram alerts lead into a web dashboard that tracks share-price performance after 30 days.</p>
-            <p class="project-stack">Python · SQLite · OCI · Telegram · Cloudflare Pages</p>
-            <div class="project-links">
-              <a href="https://ted-bot-j30-report.pages.dev/" target="_blank" rel="noreferrer">View the dashboard</a>
-              <a href="https://github.com/cluster2600/ted_bot" target="_blank" rel="noreferrer">Source &amp; documentation</a>
-            </div>
-            <a class="project-preview" href="https://ted-bot-j30-report.pages.dev/" target="_blank" rel="noreferrer" aria-label="Visit TED Market Signals">
-              <img src="assets/projects/ted-live.png" alt="The TED Market Signals dashboard, showing public procurement signals and their 30-day follow-up" width="1265" height="712" loading="lazy" decoding="async" />
-            </a>
-          </article>
-          <article>
-            <h3><a href="https://partirunjoursansretour.com/" target="_blank" rel="noreferrer">partirunjoursansretour.com</a></h3>
-            <p>A French-language guide to moving abroad from France or Belgium, with destination comparisons, departure checklists and information on tax and administrative steps.</p>
-            <a class="project-preview" href="https://partirunjoursansretour.com/" target="_blank" rel="noreferrer" aria-label="Visit Partir un jour sans retour">
-              <img src="assets/projects/partirunjoursansretour-live.png" alt="The live Partir un jour sans retour homepage and its illustrated introduction to moving abroad" width="1265" height="712" loading="lazy" decoding="async" />
-            </a>
-          </article>
-          <article>
-            <h3><a href="https://porschefanatics.com/" target="_blank" rel="noreferrer">porschefanatics.com</a></h3>
-            <p>An independent Porsche parts atlas bringing together factory references, aftermarket parts, technical documentation and specialists, with sources attached.</p>
-            <a class="project-preview" href="https://porschefanatics.com/" target="_blank" rel="noreferrer" aria-label="Visit Porsche Fanatics">
-              <img src="assets/projects/porschefanatics-live.png" alt="The live Porsche Fanatics homepage, with a red classic Porsche and a parts search" width="1265" height="712" loading="lazy" decoding="async" />
-            </a>
-          </article>
-          <article>
-            <h3><a href="https://seekingheir.com/" target="_blank" rel="noreferrer">seekingheir.com</a></h3>
-            <p>A platform connecting people who want to pass on a business, a collection or a life's work with potential successors. Contact details are shared after mutual acceptance, with an advisor directory for the next steps.</p>
-            <a class="project-preview" href="https://seekingheir.com/" target="_blank" rel="noreferrer" aria-label="Visit Seeking Heir">
-              <img src="assets/projects/seekingheir-live.png" alt="The live Seeking Heir homepage, illustrating succession with the handover of a classic Porsche" width="1265" height="712" loading="lazy" decoding="async" />
-            </a>
-          </article>
-        </div>
-      </section>
-      <section id="archive" aria-labelledby="archive-title">
-        <div class="section-intro">
-          <h2 id="archive-title">From the archive</h2>
-          <p>Browse at your own pace. Open any photo to see it at full size.</p>
-        </div>
-        <div class="archive-grid">
-          <figure class="archive-photo" id="photo-01">
-            <a href="assets/career-archive/photo-01.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 1 at full size">
-              <img src="assets/career-archive/photo-01.webp" alt="Yellow and red TBWA staff badge bearing the name Maxime Grenu." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">01</span> My yellow-and-red staff badge from TBWA.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-02">
-            <a href="assets/career-archive/photo-02.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 2 at full size">
-              <img src="assets/career-archive/photo-02.webp" alt="At a Spartan obstacle race in the canton of Vaud, Switzerland, in 2025, wearing a finisher medal, cap and sunglasses." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">02</span> Spartan obstacle race, canton of Vaud, Switzerland, 2025. Medal around my neck and a smile after the effort.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-03">
-            <a href="assets/career-archive/photo-03.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 3 at full size">
-              <img src="assets/career-archive/photo-03.webp" alt="Six-monitor workstation at home during my time between jobs after FlowBank." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">03</span> My six-screen setup at home during my time between jobs after FlowBank.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-04">
-            <a href="assets/career-archive/photo-04.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 4 at full size">
-              <img src="assets/career-archive/photo-04.webp" alt="Beside server and network equipment at the LCG Group data centre in Canary Wharf, London." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">04</span> At the LCG Group data centre in Canary Wharf, London.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-05">
-            <a href="assets/career-archive/photo-05.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 5 at full size">
-              <img src="assets/career-archive/photo-05.webp" alt="VT220 terminal on my desk at the Swiss Institute of Bioinformatics." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">05</span> My VT220 terminal at the Swiss Institute of Bioinformatics.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-06">
-            <a href="assets/career-archive/photo-06.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 6 at full size">
-              <img src="assets/career-archive/photo-06.webp" alt="Close-up of the VT220 terminal screen at the Swiss Institute of Bioinformatics, displaying amber text." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">06</span> A closer look at the screen of my VT220 terminal at the Swiss Institute of Bioinformatics.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-07">
-            <a href="assets/career-archive/photo-07.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 7 at full size">
-              <img src="assets/career-archive/photo-07.webp" alt="Open server rack at Hôpital du Valais." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">07</span> Inside a server rack at Hôpital du Valais.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-08">
-            <a href="assets/career-archive/photo-08.webp" target="_blank" rel="noreferrer" aria-label="Open archive photo 8 at full size">
-              <img src="assets/career-archive/photo-08.webp" alt="Beside EMC equipment at Lombard, a life insurer in Luxembourg." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">08</span> Alongside the EMC systems at Lombard, a life insurer in Luxembourg.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-09">
-            <a href="assets/work-in-pictures/page-01.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 9 at full size">
-              <img src="assets/work-in-pictures/page-01.svg" alt="Photo notebook showing an earlier multi-monitor workstation at home." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">09</span> An earlier multi-monitor setup at home.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-10">
-            <a href="assets/work-in-pictures/page-02.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 10 at full size">
-              <img src="assets/work-in-pictures/page-02.svg" alt="Two photographs of older computer desks and monitors." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">10</span> A look back at my older computer setups.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-11">
-            <a href="assets/work-in-pictures/page-03.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 11 at full size">
-              <img src="assets/work-in-pictures/page-03.svg" alt="Photo notebook showing my IBM Selectric typewriter and vintage computer." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">11</span> My own retro hardware: an IBM Selectric typewriter and a vintage computer.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-12">
-            <a href="assets/work-in-pictures/page-04.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 12 at full size">
-              <img src="assets/work-in-pictures/page-04.svg" alt="Front and rear views of server racks and cabling at Hôpital du Valais." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">12</span> The infrastructure at Hôpital du Valais, seen from both sides of the rack.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-14">
-            <a href="assets/work-in-pictures/page-06.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 14 at full size">
-              <img src="assets/work-in-pictures/page-06.svg" alt="The COVID home setup. Two photographs of a home office with an ultrawide monitor." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">13</span> My home office during COVID, built around an ultrawide monitor.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-15">
-            <a href="assets/work-in-pictures/page-07.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 15 at full size">
-              <img src="assets/work-in-pictures/page-07.svg" alt="The boss summer setup. A sunlit desk with two monitors beside a garden window." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">14</span> The trading setup didn’t fit in the helicopter. I drove from Geneva to Saint-Tropez to install it so my boss could trade while on holiday.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-16">
-            <a href="assets/work-in-pictures/page-08.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 16 at full size">
-              <img src="assets/work-in-pictures/page-08.svg" alt="Office selfie at my IT desk at Hôpital du Valais." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">15</span> At my IT desk at Hôpital du Valais.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-17">
-            <a href="assets/work-in-pictures/page-09.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 17 at full size">
-              <img src="assets/work-in-pictures/page-09.svg" alt="Portrait in a white uniform during a week of immersion in cardiology at Hôpital du Valais." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">16</span> A week immersed in cardiology at Hôpital du Valais to better understand the work of the hospital teams.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-18">
-            <a href="assets/work-in-pictures/page-10.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 18 at full size">
-              <img src="assets/work-in-pictures/page-10.svg" alt="Illuminated street in Shinjuku, Tokyo, from my time living in Japan between 2003 and 2005." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">17</span> Shinjuku, Tokyo, from my time living in Japan between 2003 and 2005.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-19">
-            <a href="assets/work-in-pictures/page-11.svg" target="_blank" rel="noreferrer" aria-label="Open archive photo 19 at full size">
-              <img src="assets/work-in-pictures/page-11.svg" alt="Evening photograph at my desk at ERI, with a computer, lamp and books." width="1600" height="2000" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">18</span> At my desk at ERI.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-20">
-            <a href="assets/facebook/FB01052.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 20 at full size">
-              <img src="assets/facebook/FB01052.jpg" alt="Six people posing together in an office" width="604" height="453" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">19</span> French speakers’ day at Johnson Controls.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-21">
-            <a href="assets/facebook/FB04362.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 21 at full size">
-              <img src="assets/facebook/FB04362.jpg" alt="Mirror portrait in a white uniform during my cardiology immersion at Hôpital du Valais." width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">20</span> Another moment from that week in cardiology: getting to know the hospital beyond the IT department.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-22">
-            <a href="assets/facebook/FB04229.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 22 at full size">
-              <img src="assets/facebook/FB04229.jpg" alt="Portrait outside a building bearing the Chopard sign" width="720" height="960" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">21</span> My first day as a sysadmin consultant at Chopard.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-23">
-            <a href="assets/facebook/FB04999.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 23 at full size">
-              <img src="assets/facebook/FB04999.jpg" alt="Photographer taking a studio portrait" width="1632" height="1224" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">22</span> Behind the scenes of a corporate portrait session with <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-24">
-            <a href="assets/peter-spurny/studio-portrait.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 24 at full size">
-              <img src="assets/peter-spurny/studio-portrait.jpg" alt="Studio portrait of Maxime Grenu wearing dark glasses, a suit and a patterned tie" width="774" height="1032" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">23</span> Studio portrait by <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-25">
-            <a href="assets/peter-spurny/magazine-shoot.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 25 at full size">
-              <img src="assets/peter-spurny/magazine-shoot.jpg" alt="Group fashion photograph for a magazine" width="604" height="499" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">24</span> Modelling for a magazine. Photo by <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-26">
-            <a href="assets/facebook/FB00952.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 26 at full size">
-              <img src="assets/facebook/FB00952.jpg" alt="Room with vintage computers and television screens" width="2031" height="1178" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">25</span> My Paris apartment during my apprenticeship.</figcaption>
-          </figure>
-          <figure class="archive-photo" id="photo-27">
-            <a href="assets/facebook/FB03057.jpg" target="_blank" rel="noreferrer" aria-label="Open archive photo 27 at full size">
-              <img src="assets/facebook/FB03057.jpg" alt="Server rack with a cluster error on its status display" width="1080" height="608" loading="lazy" decoding="async" />
-            </a>
-            <figcaption><span class="archive-number">26</span> Spotted on a server display: almost my online handle, cluster2600.</figcaption>
-          </figure>
-        </div>
-      </section>
-      <section id="social-events" class="social-events" aria-labelledby="events-title">
-        <div class="section-intro">
-          <h2 id="events-title">Social events</h2>
-        </div>
-        <div class="event-gallery">
-          <figure class="event-photo">
-            <a href="assets/events/bal-de-geneve.png" target="_blank" rel="noreferrer" aria-label="View the Bal de Genève photo at full size">
-              <img src="assets/events/bal-de-geneve.png" alt="Maxime Grenu in a tuxedo at the Bal de Genève" width="1012" height="1554" loading="lazy" decoding="async" />
-            </a>
-            <figcaption>Bal de Genève</figcaption>
-          </figure>
-          <figure class="event-photo">
-            <a href="assets/events/festival-opera-bregenz.png" target="_blank" rel="noreferrer" aria-label="View the Bregenz Opera Festival photo at full size">
-              <img src="assets/events/festival-opera-bregenz.png" alt="Maxime Grenu in a tuxedo at the Bregenz Opera Festival" width="1086" height="1448" loading="lazy" decoding="async" />
-            </a>
-            <figcaption>Bregenz Opera Festival</figcaption>
-          </figure>
-          <figure class="event-photo">
-            <a href="assets/events/anniversaire-flowbank.png" target="_blank" rel="noreferrer" aria-label="View the FlowBank anniversary photo at full size">
-              <img src="assets/events/anniversaire-flowbank.png" alt="Red-carpet photograph at FlowBank’s anniversary celebration" width="941" height="1672" loading="lazy" decoding="async" />
-            </a>
-            <figcaption>FlowBank anniversary</figcaption>
-          </figure>
-        </div>
-      </section>
-    </main>
-    <footer class="personal-footer">
-      <div class="section-intro"><h2>Back to work</h2></div>
-      <p><a href="index.html">Professional profile</a> · <a href="index.html#contact">Get in touch</a></p>
-      <p class="colophon">Set in <a href="https://github.com/cluster2600/selectric" target="_blank" rel="noreferrer">Selectric Mono</a>, a typeface by Leonard Mabille.</p>
-    </footer>
-  </body>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Photographs and personal moments from Maxime Grenu’s archive." name="description"/>
+<meta content="Beyond the CV | Maxime Grenu" property="og:title"/>
+<meta content="From the yellow staff badge to travels, portraits and social events." property="og:description"/>
+<meta content="https://cluster2600.github.io/assets/maxime-grenu-portrait-2026.png" property="og:image"/>
+<meta content="https://cluster2600.github.io/personal.html" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<title>Beyond the CV | Maxime Grenu</title>
+<link as="font" crossorigin="" href="assets/fonts/SelectricMono.otf" rel="preload" type="font/otf"/>
+<link href="styles.css?v=software-navigation-22" rel="stylesheet"/>
+<link href="editorial.css?v=26" rel="stylesheet"/></head>
+<body class="personal-page">
+<a class="skip-link" href="#top">Skip to content</a>
+<header class="site-header">
+<a aria-label="Maxime Grenu home" class="header-arms" href="index.html">
+<img alt="Grenus family coat of arms" decoding="async" height="1269" src="assets/grenus-family-arms.png" width="1240"/>
+</a>
+<nav aria-label="Primary navigation"><a href="experience.html">Experience</a><a href="software.html">Software</a><a href="writing.html">Writing</a><a aria-current="page" href="personal.html">Beyond the CV</a><a href="index.html#contact">Contact</a><a class="nav-malt" href="https://en.malt.ch/profile/maximegrenu" rel="noreferrer" target="_blank">Hire me on Malt ↗</a></nav>
+</header>
+<main id="top">
+<section aria-labelledby="personal-title" class="personal-intro">
+<p class="eyebrow">The personal notebook</p>
+<h1 id="personal-title">Beyond the CV</h1>
+<p>Web projects, old staff badges, desks, travels and evenings out. A few interests and moments from the years behind the professional profile.</p>
+<a class="button" href="index.html">← Back to my professional profile</a>
+<div class="section-links"><a href="#hobby-sites">Web projects</a><a href="#archive">Photographs</a><a href="#social-events">Social events</a></div></section>
+<section aria-labelledby="hobby-sites-title" id="hobby-sites">
+<div class="section-intro">
+<h2 id="hobby-sites-title">Web projects</h2>
+<p>Web projects I build in my own time.</p>
+</div>
+<div class="project-list hobby-projects">
+<article>
+<h3><a href="https://kept.vote/" rel="noreferrer" target="_blank">kept.vote</a></h3>
+<p>A political promise tracker that compares campaign commitments with actions and primary sources, with evidence and progress for each promise.</p>
+<figure class="project-illustration">
+<a aria-label="Visit kept.vote" class="project-preview" href="https://kept.vote/" rel="noreferrer" target="_blank">
+<img alt="Editorial illustration of a diverse crowd of European political figures, past and present" decoding="async" height="1024" loading="eager" src="assets/projects/kept-politicians.png" width="1536"/>
+</a>
+<figcaption>AI-generated editorial illustration.</figcaption>
+</figure>
+<details class="live-preview">
+<summary>Preview the live tracker</summary>
+<a aria-label="Explore the live kept.vote tracker" class="project-preview" href="https://kept.vote/" rel="noreferrer" target="_blank">
+<img alt="The live kept.vote homepage, showing its promise tracker and interactive map of Europe" decoding="async" height="712" loading="lazy" src="assets/projects/kept-live.png" width="1265"/>
+</a>
+</details>
+</article>
+<article>
+<h3><a href="https://ted-bot-j30-report.pages.dev/" rel="noreferrer" target="_blank">TED — public procurement signals</a></h3>
+<p>I built a scanner that follows European public contract awards, matches winners to listed small-cap companies and flags contracts that are large relative to their revenue. Telegram alerts lead into a web dashboard that tracks share-price performance after 30 days.</p>
+<p class="project-stack">Python · SQLite · OCI · Telegram · Cloudflare Pages</p>
+<div class="project-links">
+<a href="https://ted-bot-j30-report.pages.dev/" rel="noreferrer" target="_blank">View the dashboard</a>
+<a href="https://github.com/cluster2600/ted_bot" rel="noreferrer" target="_blank">Source &amp; documentation</a>
+</div>
+<a aria-label="Visit TED Market Signals" class="project-preview" href="https://ted-bot-j30-report.pages.dev/" rel="noreferrer" target="_blank">
+<img alt="The TED Market Signals dashboard, showing public procurement signals and their 30-day follow-up" decoding="async" height="712" loading="lazy" src="assets/projects/ted-live.png" width="1265"/>
+</a>
+</article>
+<article>
+<h3><a href="https://partirunjoursansretour.com/" rel="noreferrer" target="_blank">partirunjoursansretour.com</a></h3>
+<p>A French-language guide to moving abroad from France or Belgium, with destination comparisons, departure checklists and information on tax and administrative steps.</p>
+<a aria-label="Visit Partir un jour sans retour" class="project-preview" href="https://partirunjoursansretour.com/" rel="noreferrer" target="_blank">
+<img alt="The live Partir un jour sans retour homepage and its illustrated introduction to moving abroad" decoding="async" height="712" loading="lazy" src="assets/projects/partirunjoursansretour-live.png" width="1265"/>
+</a>
+</article>
+<article>
+<h3><a href="https://porschefanatics.com/" rel="noreferrer" target="_blank">porschefanatics.com</a></h3>
+<p>An independent Porsche parts atlas bringing together factory references, aftermarket parts, technical documentation and specialists, with sources attached.</p>
+<a aria-label="Visit Porsche Fanatics" class="project-preview" href="https://porschefanatics.com/" rel="noreferrer" target="_blank">
+<img alt="The live Porsche Fanatics homepage, with a red classic Porsche and a parts search" decoding="async" height="712" loading="lazy" src="assets/projects/porschefanatics-live.png" width="1265"/>
+</a>
+</article>
+<article>
+<h3><a href="https://seekingheir.com/" rel="noreferrer" target="_blank">seekingheir.com</a></h3>
+<p>A platform connecting people who want to pass on a business, a collection or a life's work with potential successors. Contact details are shared after mutual acceptance, with an advisor directory for the next steps.</p>
+<a aria-label="Visit Seeking Heir" class="project-preview" href="https://seekingheir.com/" rel="noreferrer" target="_blank">
+<img alt="The live Seeking Heir homepage, illustrating succession with the handover of a classic Porsche" decoding="async" height="712" loading="lazy" src="assets/projects/seekingheir-live.png" width="1265"/>
+</a>
+</article>
+</div>
+</section>
+<section aria-labelledby="archive-title" id="archive">
+<div class="section-intro">
+<h2 id="archive-title">From the archive</h2>
+<p>Browse at your own pace. Open any photo to see it at full size.</p>
+</div>
+<div class="archive-grid">
+<figure class="archive-photo" id="photo-01">
+<a aria-label="Open archive photo 1 at full size" href="assets/career-archive/photo-01.webp" rel="noreferrer" target="_blank">
+<img alt="Yellow and red TBWA staff badge bearing the name Maxime Grenu." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-01.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">01</span><h3>The yellow badge</h3><p> My yellow-and-red staff badge from TBWA.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-02">
+<a aria-label="Open archive photo 2 at full size" href="assets/career-archive/photo-02.webp" rel="noreferrer" target="_blank">
+<img alt="At a Spartan obstacle race in the canton of Vaud, Switzerland, in 2025, wearing a finisher medal, cap and sunglasses." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-02.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">02</span><h3>Spartan, Vaud / 2025</h3><p> Spartan obstacle race, canton of Vaud, Switzerland, 2025. Medal around my neck and a smile after the effort.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-03">
+<a aria-label="Open archive photo 3 at full size" href="assets/career-archive/photo-03.webp" rel="noreferrer" target="_blank">
+<img alt="Six-monitor workstation at home during my time between jobs after FlowBank." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-03.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">03</span><h3>At home after FlowBank</h3><p> My six-screen setup at home during my time between jobs after FlowBank.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-04">
+<a aria-label="Open archive photo 4 at full size" href="assets/career-archive/photo-04.webp" rel="noreferrer" target="_blank">
+<img alt="Beside server and network equipment at the LCG Group data centre in Canary Wharf, London." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-04.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">04</span><h3>LCG / Canary Wharf</h3><p> At the LCG Group data centre in Canary Wharf, London.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-05">
+<a aria-label="Open archive photo 5 at full size" href="assets/career-archive/photo-05.webp" rel="noreferrer" target="_blank">
+<img alt="VT220 terminal on my desk at the Swiss Institute of Bioinformatics." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-05.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">05</span><h3>A VT220 at SIB</h3><p> My VT220 terminal at the Swiss Institute of Bioinformatics.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-06">
+<a aria-label="Open archive photo 6 at full size" href="assets/career-archive/photo-06.webp" rel="noreferrer" target="_blank">
+<img alt="Close-up of the VT220 terminal screen at the Swiss Institute of Bioinformatics, displaying amber text." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-06.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">06</span><h3>The terminal, up close</h3><p> A closer look at the screen of my VT220 terminal at the Swiss Institute of Bioinformatics.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-07">
+<a aria-label="Open archive photo 7 at full size" href="assets/career-archive/photo-07.webp" rel="noreferrer" target="_blank">
+<img alt="Open server rack at Hôpital du Valais." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-07.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">07</span><h3>Hôpital du Valais</h3><p> Inside a server rack at Hôpital du Valais.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-08">
+<a aria-label="Open archive photo 8 at full size" href="assets/career-archive/photo-08.webp" rel="noreferrer" target="_blank">
+<img alt="Beside EMC equipment at Lombard, a life insurer in Luxembourg." decoding="async" height="960" loading="lazy" src="assets/career-archive/photo-08.webp" width="720"/>
+</a>
+<figcaption><span class="archive-number">08</span><h3>Lombard / Luxembourg</h3><p> Alongside the EMC systems at Lombard, a life insurer in Luxembourg.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-09">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-01-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Photo notebook showing an earlier multi-monitor workstation at home." decoding="async" height="942" loading="lazy" src="assets/archive-photos/page-01-photo-1.svg" width="1412"/></a></div>
+<figcaption><span class="archive-number">09</span><h3>My workstation at home</h3><p> An earlier multi-monitor setup at home.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-10">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-02-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Two photographs of older computer desks and monitors." decoding="async" height="534" loading="lazy" src="assets/archive-photos/page-02-photo-1.svg" width="712"/></a><a aria-label="Open photograph at full size" href="assets/archive-photos/page-02-photo-2.svg" rel="noreferrer" target="_blank"><img alt="Two photographs of older computer desks and monitors." decoding="async" height="635" loading="lazy" src="assets/archive-photos/page-02-photo-2.svg" width="848"/></a></div>
+<figcaption><span class="archive-number">10</span><h3>Earlier computer setups</h3><p> A look back at my older computer setups.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-11">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-03-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Photo notebook showing my IBM Selectric typewriter and vintage computer." decoding="async" height="668" loading="lazy" src="assets/archive-photos/page-03-photo-1.svg" width="1186"/></a><a aria-label="Open photograph at full size" href="assets/archive-photos/page-03-photo-2.svg" rel="noreferrer" target="_blank"><img alt="Photo notebook showing my IBM Selectric typewriter and vintage computer." decoding="async" height="622" loading="lazy" src="assets/archive-photos/page-03-photo-2.svg" width="622"/></a></div>
+<figcaption><span class="archive-number">11</span><h3>My retro hardware</h3><p> My own retro hardware: an IBM Selectric typewriter and a vintage computer.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-12">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-04-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Front and rear views of server racks and cabling at Hôpital du Valais." decoding="async" height="907" loading="lazy" src="assets/archive-photos/page-04-photo-1.svg" width="681"/></a><a aria-label="Open photograph at full size" href="assets/archive-photos/page-04-photo-2.svg" rel="noreferrer" target="_blank"><img alt="Front and rear views of server racks and cabling at Hôpital du Valais." decoding="async" height="907" loading="lazy" src="assets/archive-photos/page-04-photo-2.svg" width="682"/></a></div>
+<figcaption><span class="archive-number">12</span><h3>Hospital infrastructure</h3><p> The infrastructure at Hôpital du Valais, seen from both sides of the rack.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-14">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-06-photo-1.svg" rel="noreferrer" target="_blank"><img alt="The COVID home setup. Two photographs of a home office with an ultrawide monitor." decoding="async" height="652" loading="lazy" src="assets/archive-photos/page-06-photo-1.svg" width="1158"/></a><a aria-label="Open photograph at full size" href="assets/archive-photos/page-06-photo-2.svg" rel="noreferrer" target="_blank"><img alt="The COVID home setup. Two photographs of a home office with an ultrawide monitor." decoding="async" height="552" loading="lazy" src="assets/archive-photos/page-06-photo-2.svg" width="736"/></a></div>
+<figcaption><span class="archive-number">13</span><h3>Home office / COVID</h3><p> My home office during COVID, built around an ultrawide monitor.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-15">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-07-photo-1.svg" rel="noreferrer" target="_blank"><img alt="The boss summer setup. A sunlit desk with two monitors beside a garden window." decoding="async" height="1376" loading="lazy" src="assets/archive-photos/page-07-photo-1.svg" width="774"/></a></div>
+<figcaption><span class="archive-number">14</span><h3>Geneva to Saint-Tropez</h3><p> The trading setup didn’t fit in the helicopter. I drove from Geneva to Saint-Tropez to install it so my boss could trade while on holiday.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-16">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-08-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Office selfie at my IT desk at Hôpital du Valais." decoding="async" height="794" loading="lazy" src="assets/archive-photos/page-08-photo-1.svg" width="1411"/></a></div>
+<figcaption><span class="archive-number">15</span><h3>At my hospital IT desk</h3><p> At my IT desk at Hôpital du Valais.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-17">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-09-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Portrait in a white uniform during a week of immersion in cardiology at Hôpital du Valais." decoding="async" height="1032" loading="lazy" src="assets/archive-photos/page-09-photo-1.svg" width="774"/></a></div>
+<figcaption><span class="archive-number">16</span><h3>A week in cardiology</h3><p> A week immersed in cardiology at Hôpital du Valais to better understand the work of the hospital teams.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-18">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-10-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Illuminated street in Shinjuku, Tokyo, from my time living in Japan between 2003 and 2005." decoding="async" height="1306" loading="lazy" src="assets/archive-photos/page-10-photo-1.svg" width="980"/></a></div>
+<figcaption><span class="archive-number">17</span><h3>Living in Japan / 2003–2005</h3><p> Shinjuku, Tokyo, from my time living in Japan between 2003 and 2005.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-19">
+<div class="archive-media"><a aria-label="Open photograph at full size" href="assets/archive-photos/page-11-photo-1.svg" rel="noreferrer" target="_blank"><img alt="Evening photograph at my desk at ERI, with a computer, lamp and books." decoding="async" height="793" loading="lazy" src="assets/archive-photos/page-11-photo-1.svg" width="1411"/></a></div>
+<figcaption><span class="archive-number">18</span><h3>At my desk at ERI</h3><p> At my desk at ERI.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-20">
+<a aria-label="Open archive photo 20 at full size" href="assets/facebook/FB01052.jpg" rel="noreferrer" target="_blank">
+<img alt="Six people posing together in an office" decoding="async" height="453" loading="lazy" src="assets/facebook/FB01052.jpg" width="604"/>
+</a>
+<figcaption><span class="archive-number">19</span><h3>Johnson Controls</h3><p> French speakers’ day at Johnson Controls.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-21">
+<a aria-label="Open archive photo 21 at full size" href="assets/facebook/FB04362.jpg" rel="noreferrer" target="_blank">
+<img alt="Mirror portrait in a white uniform during my cardiology immersion at Hôpital du Valais." decoding="async" height="960" loading="lazy" src="assets/facebook/FB04362.jpg" width="720"/>
+</a>
+<figcaption><span class="archive-number">20</span><h3>Beyond the IT department</h3><p> Another moment from that week in cardiology: getting to know the hospital beyond the IT department.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-22">
+<a aria-label="Open archive photo 22 at full size" href="assets/facebook/FB04229.jpg" rel="noreferrer" target="_blank">
+<img alt="Portrait outside a building bearing the Chopard sign" decoding="async" height="960" loading="lazy" src="assets/facebook/FB04229.jpg" width="720"/>
+</a>
+<figcaption><span class="archive-number">21</span><h3>First day at Chopard</h3><p> My first day as a sysadmin consultant at Chopard.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-23">
+<a aria-label="Open archive photo 23 at full size" href="assets/facebook/FB04999.jpg" rel="noreferrer" target="_blank">
+<img alt="Photographer taking a studio portrait" decoding="async" height="1224" loading="lazy" src="assets/facebook/FB04999.jpg" width="1632"/>
+</a>
+<figcaption><span class="archive-number">22</span><h3>Behind the portrait</h3><p> Behind the scenes of a corporate portrait session with <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-24">
+<a aria-label="Open archive photo 24 at full size" href="assets/peter-spurny/studio-portrait.jpg" rel="noreferrer" target="_blank">
+<img alt="Studio portrait of Maxime Grenu wearing dark glasses, a suit and a patterned tie" decoding="async" height="1032" loading="lazy" src="assets/peter-spurny/studio-portrait.jpg" width="774"/>
+</a>
+<figcaption><span class="archive-number">23</span><h3>A portrait by Peter Spurny</h3><p> Studio portrait by <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-25">
+<a aria-label="Open archive photo 25 at full size" href="assets/peter-spurny/magazine-shoot.jpg" rel="noreferrer" target="_blank">
+<img alt="Group fashion photograph for a magazine" decoding="async" height="499" loading="lazy" src="assets/peter-spurny/magazine-shoot.jpg" width="604"/>
+</a>
+<figcaption><span class="archive-number">24</span><h3>Modelling for a magazine</h3><p> Modelling for a magazine. Photo by <a href="https://www.1155.sk/" rel="noreferrer" target="_blank">Peter Spurny</a>.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-26">
+<a aria-label="Open archive photo 26 at full size" href="assets/facebook/FB00952.jpg" rel="noreferrer" target="_blank">
+<img alt="Room with vintage computers and television screens" decoding="async" height="1178" loading="lazy" src="assets/facebook/FB00952.jpg" width="2031"/>
+</a>
+<figcaption><span class="archive-number">25</span><h3>Paris / Apprenticeship</h3><p> My Paris apartment during my apprenticeship.</p></figcaption>
+</figure>
+<figure class="archive-photo" id="photo-27">
+<a aria-label="Open archive photo 27 at full size" href="assets/facebook/FB03057.jpg" rel="noreferrer" target="_blank">
+<img alt="Server rack with a cluster error on its status display" decoding="async" height="608" loading="lazy" src="assets/facebook/FB03057.jpg" width="1080"/>
+</a>
+<figcaption><span class="archive-number">26</span><h3>Almost cluster2600</h3><p> Spotted on a server display: almost my online handle, cluster2600.</p></figcaption>
+</figure>
+</div>
+</section>
+<section aria-labelledby="events-title" class="social-events" id="social-events">
+<div class="section-intro">
+<h2 id="events-title">Social events</h2>
+</div>
+<div class="event-gallery">
+<figure class="event-photo">
+<a aria-label="View the Bal de Genève photo at full size" href="assets/events/bal-de-geneve.png" rel="noreferrer" target="_blank">
+<img alt="Maxime Grenu in a tuxedo at the Bal de Genève" decoding="async" height="1554" loading="lazy" src="assets/events/bal-de-geneve.png" width="1012"/>
+</a>
+<figcaption>Bal de Genève</figcaption>
+</figure>
+<figure class="event-photo">
+<a aria-label="View the Bregenz Opera Festival photo at full size" href="assets/events/festival-opera-bregenz.png" rel="noreferrer" target="_blank">
+<img alt="Maxime Grenu in a tuxedo at the Bregenz Opera Festival" decoding="async" height="1448" loading="lazy" src="assets/events/festival-opera-bregenz.png" width="1086"/>
+</a>
+<figcaption>Bregenz Opera Festival</figcaption>
+</figure>
+<figure class="event-photo">
+<a aria-label="View the FlowBank anniversary photo at full size" href="assets/events/anniversaire-flowbank.png" rel="noreferrer" target="_blank">
+<img alt="Red-carpet photograph at FlowBank’s anniversary celebration" decoding="async" height="1672" loading="lazy" src="assets/events/anniversaire-flowbank.png" width="941"/>
+</a>
+<figcaption>FlowBank anniversary</figcaption>
+</figure>
+</div>
+</section>
+</main>
+<footer class="personal-footer">
+<div class="section-intro"><h2>Back to work</h2></div>
+<p><a href="index.html">Professional profile</a> · <a href="index.html#contact">Get in touch</a></p>
+<p class="colophon">Set in <a href="https://github.com/cluster2600/selectric" rel="noreferrer" target="_blank">Selectric Mono</a>, a typeface by Leonard Mabille.</p>
+</footer>
+</body>
 </html>
