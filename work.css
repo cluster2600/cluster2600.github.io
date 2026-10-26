@@ -59,3 +59,5 @@
 .publication-list .teaching-feature a { display: inline; padding: 0; color: #6331a2; }
 .teaching-feature > p:last-child, .malt-explainer { font-size: 16px; margin-top: 12px; }
 @media(max-width:600px) { .profile-page main > .work-learn { grid-template-columns: 1fr; gap: 28px; } .work-learn article + article { padding-top: 26px; border-top: 1px dotted var(--line); } }
+
+.hero-portrait img { aspect-ratio: 3 / 4; object-fit: contain; }
